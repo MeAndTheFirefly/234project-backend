@@ -28,4 +28,5 @@ nbdist/
 !src/main/resources/*/*
 
 **/~*
+**/.~*
 #logfile
