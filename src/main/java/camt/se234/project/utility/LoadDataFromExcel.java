@@ -58,11 +58,10 @@ public class LoadDataFromExcel  extends AbstractDataLoadFromXlsx{
         while (rowIterator.hasNext()){
             Row row = rowIterator.next();
             if (getCellData(row,"B") != ""){
-                User user = User.builder()
-                        .username(getCellData(row,"B"))
-                        .password(getCellData(row,"C"))
-                        .role(getCellData(row,"D"))
-                        .build();
+                User user = new User();
+                        user.setUsername(getCellData(row,"B"));
+                        user.setPassword(getCellData(row,"C"));
+                        user.setRole(getCellData(row,"D"));
                 userRepository.save(user);
             }
         }
@@ -77,13 +76,12 @@ public class LoadDataFromExcel  extends AbstractDataLoadFromXlsx{
         while (rowIterator.hasNext()){
             Row row = rowIterator.next();
             if (getCellData(row,"B") != ""){
-                Product product = Product.builder()
-                        .productId(getCellData(row,"B"))
-                        .name(getCellData(row,"C"))
-                        .description(getCellData(row,"D"))
-                        .imageLocation(imageServer+getCellData(row,"E"))
-                        .price((Double) getAnyType(row,"F"))
-                        .build();
+                Product product = new Product();
+                		product.setProductId(getCellData(row,"B"));
+                        product.setName(getCellData(row,"C"));
+                        product.setDescription(getCellData(row,"D"));
+                        product.setImageLocation(imageServer+getCellData(row,"E"));
+                        product.setPrice((Double) getAnyType(row,"F"));
                 productRepository.save(product);
             }
         }
@@ -97,10 +95,9 @@ public class LoadDataFromExcel  extends AbstractDataLoadFromXlsx{
         while (rowIterator.hasNext()){
             Row row = rowIterator.next();
             if (getCellData(row,"B") != ""){
-                SaleTransaction transaction = SaleTransaction.builder()
-                        .transactionId(getCellData(row,"B"))
-                        .amount(Integer.parseInt(getCellData(row,"D")))
-                        .build();
+                SaleTransaction transaction = new SaleTransaction();
+                	transaction.setTransactionId(getCellData(row,"B"));
+                	transaction.setAmount(Integer.parseInt(getCellData(row,"D")));
                 saleTransactionRepository.save(transaction);
                 Product product = productRepository.findByProductId(getCellData(row,"C"));
                 transaction.setProduct(product);
@@ -115,9 +112,8 @@ public class LoadDataFromExcel  extends AbstractDataLoadFromXlsx{
         while (rowIterator.hasNext()){
             Row row = rowIterator.next();
             if (getCellData(row,"B") != ""){
-                SaleOrder order = SaleOrder.builder()
-                        .saleOrderId(getCellData(row,"B"))
-                        .build();
+                SaleOrder order = new SaleOrder();
+                        order.setSaleOrderId(getCellData(row,"B"));
                 orderRepository.save(order);
                 String transactionList = getCellData(row,"C");
                 String[] tList = transactionList.split(",");

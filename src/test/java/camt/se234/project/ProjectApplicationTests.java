@@ -32,20 +32,24 @@ public class ProjectApplicationTests {
     SaleOrderService saleOrderService;
     @Test
     public void testAddTransaction(){
-        SaleOrder order = SaleOrder.builder()
-                .saleOrderId("O001")
-                .build();
+        SaleOrder order = new SaleOrder();
+                order.setSaleOrderId("O001");
         Product p1 = productRepository.findByProductId("p0001");
         Product p2 = productRepository.findByProductId("p0002");
         List<SaleTransaction> transactions = new ArrayList<>();
-        transactions.add(SaleTransaction.builder().transactionId("t0001")
-                .product(p1)
-                .amount(10)
-                .build());
-        transactions.add(SaleTransaction.builder().transactionId("t0002")
-                .product(p2)
-                .amount(12)
-                .build());
+        
+        SaleTransaction sale = new SaleTransaction();
+	        sale.setTransactionId("t0001");
+	        sale.setProduct(p1);
+	        sale.setAmount(10);
+        transactions.add(sale);
+        
+        SaleTransaction sale2 = new SaleTransaction();
+	        sale.setTransactionId("t0002");
+	        sale.setProduct(p2);
+	        sale.setAmount(12);
+        transactions.add(sale);
+         
         order.setTransactions(transactions);
         SaleOrder result = saleOrderService.addSaleOrder(order);
         assertThat(result.getId(),is(notNullValue()));
