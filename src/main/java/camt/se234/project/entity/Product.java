@@ -25,6 +25,17 @@ public class Product {
     String imageLocation;
     double price;
     
+	public Product(Long id, String productId, String name, String description,
+			String imageLocation, double price) {
+		super();
+		this.id = id;
+		this.productId = productId;
+		this.name = name;
+		this.description = description;
+		this.imageLocation = imageLocation;
+		this.price = price;
+	}
+
 	public Long getId() {
 		return id;
 	}
