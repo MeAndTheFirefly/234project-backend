@@ -45,10 +45,10 @@ public class ProjectApplicationTests {
         transactions.add(sale);
         
         SaleTransaction sale2 = new SaleTransaction();
-	        sale.setTransactionId("t0002");
-	        sale.setProduct(p2);
-	        sale.setAmount(12);
-        transactions.add(sale);
+	        sale2.setTransactionId("t0002");
+	        sale2.setProduct(p2);
+	        sale2.setAmount(12);
+        transactions.add(sale2);
          
         order.setTransactions(transactions);
         SaleOrder result = saleOrderService.addSaleOrder(order);
