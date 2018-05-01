@@ -24,7 +24,8 @@ public class OrderDaoImpl implements OrderDao {
 
     @Override
     public List<SaleOrder> getOrders() {
-        return StreamSupport.stream(orderRepository.findAll().spliterator(),false)
-                .collect(Collectors.toList());
+        return (List<SaleOrder>) orderRepository.findAll();
+        		// StreamSupport.stream(orderRepository.findAll().spliterator(),false)
+                // .collect(Collectors.toList());
     }
 }
