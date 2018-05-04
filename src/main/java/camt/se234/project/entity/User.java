@@ -16,6 +16,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
+	public User() {}
     public User(Long id, String username, String password, String role) {
 		super();
 		this.id = id;
