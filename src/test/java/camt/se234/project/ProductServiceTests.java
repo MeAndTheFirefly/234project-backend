@@ -28,8 +28,6 @@ public class ProductServiceTests {
 	@Autowired
 	ProductService productSrv;
 
-	ProductDao productDao;
-
 	@Test
 	public void testProductSrv() {
 		assertThat(productSrv, is(notNullValue()));
@@ -40,7 +38,7 @@ public class ProductServiceTests {
 
 	@Test
 	public void mockSetup() {
-		productDao = mock(ProductDao.class);
+		ProductDao productDao = mock(ProductDao.class);
 		((ProductServiceImpl) productSrv).setProductDao(productDao);
 		List<Product> mockProducts = new ArrayList<Product>();
 		mockProducts.add(new Product("p0001", "Garden", "The garden which you can grow everything on earth", "garden.jpg", 20000));
@@ -56,9 +54,6 @@ public class ProductServiceTests {
 	public void testGetAllProdMock() {
 		List<Product> mockList = productSrv.getAllProducts();
 		assertThat(mockList.size(), is(6));
-		for (int i = 0; i < mockList.size(); i++) {
-			System.out.println(mockList.get(i).getName());
-		}
 		assertThat(mockList.get(0), is(new Product("p0001", "Garden", "The garden which you can grow everything on earth", "garden.jpg", 20000)));
 		assertThat(mockList.get(1), is(new Product("p0002", "Banana", "A good fruit with very cheap price", "banana.jpg", 150)));
 		assertThat(mockList.get(2), is(new Product("p0003", "Orange", "Nothing good about it", "orange.jpg", 280)));
