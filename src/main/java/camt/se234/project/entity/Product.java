@@ -1,5 +1,7 @@
 package camt.se234.project.entity;
 
+import java.util.Objects;
+
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -85,5 +87,13 @@ public class Product {
 		this.price = price;
 	}
 
-    
+	@Override
+	public int hashCode() {
+		return Objects.hash(productId, name, description, imageLocation, price);
+	}
+
+	@Override
+	public boolean equals(Object p) {
+		return p != null && hashCode() == ((Product) p).hashCode();
+	}
 }
