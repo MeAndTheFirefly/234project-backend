@@ -18,52 +18,65 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @AllArgsConstructor
 public class User {
-	public User() {}
-    public User(String username, String password, String role) {
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	Long id;
+	String username;
+	String password;
+	String role;
+
+	public User() {
+	}
+
+	public User(String username, String password, String role) {
 		super();
 		this.username = username;
 		this.password = password;
 		this.role = role;
 	}
 
-	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-	Long id;
-    String username;
-    String password;
-    String role;
+	public Long getId() {
+		return id;
+	}
 
-    public String getUsername() {
-        return username;
-    }
+	public String getUsername() {
+		return username;
+	}
 
-    public void setUsername(String username) {
-        this.username = username;
-    }
+	public void setUsername(String username) {
+		this.username = username;
+	}
 
-    public String getPassword() {
-        return password;
-    }
+	public String getPassword() {
+		return password;
+	}
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
+	public void setPassword(String password) {
+		this.password = password;
+	}
 
-    public String getRole() {
-        return role;
-    }
+	public String getRole() {
+		return role;
+	}
 
-    public void setRole(String role) {
-        this.role = role;
-    }
-    
-  @Override
-  public int hashCode() {
-	  return Objects.hash(username,password,role);
-  }
-  
-  @Override
-  public boolean equals(Object p) {
-	  return p != null && hashCode() == ((User) p).hashCode() ;
-  }
+	public void setRole(String role) {
+		this.role = role;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(username, password, role);
+	}
+
+	@Override
+	public boolean equals(Object u) {
+		return u != null && hashCode() == ((User) u).hashCode();
+	}
+
+	@Override
+	public String toString() {
+		return "User [username=" + username + ", password=" + password
+				+ ", role=" + role + "]";
+	}
+
 }
