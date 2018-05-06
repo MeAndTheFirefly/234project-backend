@@ -24,13 +24,14 @@ public class SaleTransaction {
     @OneToOne (fetch = FetchType.EAGER)
     Product product;
     int amount;
-
+    
+   public SaleTransaction(String transactionId,Product product,int amount) {
+	   this.transactionId = transactionId;
+	   this.product = product;
+	   this.amount = amount;
+   }
     public Long getId() {
         return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
     }
 
     public String getTransactionId() {
