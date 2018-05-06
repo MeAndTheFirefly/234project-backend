@@ -8,6 +8,8 @@ import static org.mockito.Mockito.when;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -62,23 +64,28 @@ public class SaleOrderServiceTests {
 	}
 
 	@Test
-	public void testGetSaleOrdersWithMock() {
+	public void testAvgOrderPrice() {
+		// System.out.println("Average: " + saleOrderSrv.getAverageSaleOrderPrice());
+		assertThat(saleOrderSrv.getAverageSaleOrderPrice(), is(40345.0));
+	}
+
+	@Test
+	public void mockSetup() {
 		OrderDao orderDao = mock(OrderDao.class);
 		((SaleOrderServiceImpl) saleOrderSrv).setOrderDao(orderDao);
 		List<SaleOrder> mockOrders = new ArrayList<SaleOrder>();
-
 		Product Garden = new Product("p0001-mock", "Garden-mock", "The garden which you can grow everything on earth",
-				"http://localhost:8080/images/garden.jpg", 20000);
+				"http://localhost:8080/images/garden.jpg", 999);
 		Product Banana = new Product("p0002-mock", "Banana-mock", "A good fruit with very cheap price",
-				"http://localhost:8080/images/banana.jpg", 150);
+				"http://localhost:8080/images/banana.jpg", 222);
 		Product Papaya = new Product("p0004-mock", "Papaya-mock", "Use for papaya salad",
-				"http://localhost:8080/images/papaya.jpg", 12);
+				"http://localhost:8080/images/papaya.jpg", 444);
 		Product Rambutan = new Product("p0005-mock", "Rambutan-mock", "An expensive fruit from the sout",
-				"http://localhost:8080/images/rambutan.jpg", 20);
+				"http://localhost:8080/images/rambutan.jpg", 111);
 
 		List<SaleTransaction> transactMockList1 = new ArrayList<SaleTransaction>();
-		transactMockList1.add(new SaleTransaction("t001-mock", Garden, 1));
-		transactMockList1.add(new SaleTransaction("t002-mock", Papaya, 10));
+		transactMockList1.add(new SaleTransaction("t001-mock", Garden, 5));
+		transactMockList1.add(new SaleTransaction("t002-mock", Papaya, 4));
 		mockOrders.add(new SaleOrder("o001-mock", transactMockList1));
 
 		List<SaleTransaction> transactMockList2 = new ArrayList<SaleTransaction>();
@@ -87,11 +94,31 @@ public class SaleOrderServiceTests {
 		transactMockList2.add(new SaleTransaction("t005-mock", Banana, 1));
 		transactMockList2.add(new SaleTransaction("t006-mock", Rambutan, 6));
 		mockOrders.add(new SaleOrder("o002-mock", transactMockList2));
-
 		when(orderDao.getOrders()).thenReturn(mockOrders);
+	}
+
+	@Test
+	public void testSaleAvgMock() {
+		// System.out.println(saleOrderSrv.getAverageSaleOrderPrice());
+		// assertThat(saleOrderSrv.getAverageSaleOrderPrice(), is(5550.0));
+	}
+
+	@Test
+	public void testGetSaleOrdersWithMock() {
+		List<SaleOrder> mockOrders = saleOrderSrv.getSaleOrders();
 		assertThat(mockOrders, is(notNullValue()));
 		assertThat(mockOrders.size(), is(2));
-		assertThat(mockOrders.get(0), is(new SaleOrder("o001-mock", transactMockList1)));
-		assertThat(mockOrders.get(1), is(new SaleOrder("o002-mock", transactMockList2)));
+		assertThat(mockOrders.get(0).getSaleOrderId(), is("o001-mock"));
+		assertThat(mockOrders.get(0).getTransactions().size(), is(2));
+		assertThat(mockOrders.get(0).getTransactions().get(0).getTransactionId(), is("t001-mock"));
+		assertThat(mockOrders.get(0).getTransactions().get(1).getTransactionId(), is("t002-mock"));
+		assertThat(mockOrders.get(1).getSaleOrderId(), is("o002-mock"));
+		assertThat(mockOrders.get(1).getTransactions().size(), is(4));
+		assertThat(mockOrders.get(1).getTransactions().get(0).getTransactionId(), is("t003-mock"));
+		assertThat(mockOrders.get(1).getTransactions().get(1).getTransactionId(), is("t004-mock"));
+		assertThat(mockOrders.get(1).getTransactions().get(2).getTransactionId(), is("t005-mock"));
+		assertThat(mockOrders.get(1).getTransactions().get(3).getTransactionId(), is("t006-mock"));
+
 	}
+
 }
