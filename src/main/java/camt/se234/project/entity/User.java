@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.Objects;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -17,9 +19,8 @@ import javax.persistence.Id;
 @AllArgsConstructor
 public class User {
 	public User() {}
-    public User(Long id, String username, String password, String role) {
+    public User(String username, String password, String role) {
 		super();
-		this.id = id;
 		this.username = username;
 		this.password = password;
 		this.role = role;
@@ -27,18 +28,9 @@ public class User {
 
 	@Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    Long id;
     String username;
     String password;
     String role;
-
-    public Long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
 
     public String getUsername() {
         return username;
@@ -63,4 +55,14 @@ public class User {
     public void setRole(String role) {
         this.role = role;
     }
+    
+  @Override
+  public int hashCode() {
+	  return Objects.hash(username,password,role);
+  }
+  
+  @Override
+  public boolean equals(Object p) {
+	  return p != null && hashCode() == ((User) p).hashCode() ;
+  }
 }
