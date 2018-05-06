@@ -44,20 +44,21 @@ public class SaleOrderServiceTests {
 		transactList1.add(new SaleTransaction("t001", Garden, 1));
 		transactList1.add(new SaleTransaction("t002", Papaya, 10));
 		assertThat(transactList1.size(),is(2));
-		System.out.println(transactList1.toString());
+		SaleOrder so1 = new SaleOrder("o001", transactList1);
 		
 		List<SaleTransaction> transactList2 = new ArrayList<SaleTransaction>();
 		transactList2.add(new SaleTransaction("t003", Banana, 2));
 		transactList2.add(new SaleTransaction("t004", Garden, 3));
 		transactList2.add(new SaleTransaction("t005", Banana, 1));
 		transactList2.add(new SaleTransaction("t006", Rambutan, 6));
+		SaleOrder so2 = new SaleOrder("o002", transactList2);
 
 		assertThat(saleOrderSrv, is(notNullValue()));
 		List<SaleOrder> saleOrders = saleOrderSrv.getSaleOrders();
 		assertThat(saleOrders, is(notNullValue()));
 		assertThat(saleOrders.size(), is(2));
-		assertThat(saleOrders.get(0), is(new SaleOrder("o001", transactList1)));
-		assertThat(saleOrders.get(1), is(new SaleOrder("o002", transactList2)));
+		assertThat(saleOrders.get(0), is(so1));
+		assertThat(saleOrders.get(1), is(so2));
 	}
 
 	@Test

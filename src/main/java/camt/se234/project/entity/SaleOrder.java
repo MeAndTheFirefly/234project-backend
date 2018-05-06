@@ -64,7 +64,10 @@ public class SaleOrder {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(saleOrderId,transactions.hashCode());
+		int hash = Objects.hash(saleOrderId);
+		for (SaleTransaction st : transactions)
+			hash = Objects.hash(hash, st.hashCode());
+		return hash;
 	}
 
 	@Override
