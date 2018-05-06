@@ -96,4 +96,12 @@ public class Product {
 	public boolean equals(Object p) {
 		return p != null && hashCode() == ((Product) p).hashCode();
 	}
+
+	@Override
+	public String toString() {
+		return "Product [productId=" + productId + ", name=" + name
+				+ ", description=" + description + ", imageLocation="
+				+ imageLocation + ", price=" + price + "]";
+	}
+	
 }
