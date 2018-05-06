@@ -43,9 +43,9 @@ public class SaleOrderServiceTests {
 		List<SaleTransaction> transactList1 = new ArrayList<SaleTransaction>();
 		transactList1.add(new SaleTransaction("t001", Garden, 1));
 		transactList1.add(new SaleTransaction("t002", Papaya, 10));
-		assertThat(transactList1.size(),is(2));
+		assertThat(transactList1.size(), is(2));
 		SaleOrder so1 = new SaleOrder("o001", transactList1);
-		
+
 		List<SaleTransaction> transactList2 = new ArrayList<SaleTransaction>();
 		transactList2.add(new SaleTransaction("t003", Banana, 2));
 		transactList2.add(new SaleTransaction("t004", Garden, 3));
@@ -62,46 +62,36 @@ public class SaleOrderServiceTests {
 	}
 
 	@Test
-	public void mockSetup() {
+	public void testGetSaleOrdersWithMock() {
 		OrderDao orderDao = mock(OrderDao.class);
 		((SaleOrderServiceImpl) saleOrderSrv).setOrderDao(orderDao);
 		List<SaleOrder> mockOrders = new ArrayList<SaleOrder>();
 
-		Product Garden = new Product("p0001", "Garden", "The garden which you can grow everything on earth",
+		Product Garden = new Product("p0001-mock", "Garden-mock", "The garden which you can grow everything on earth",
 				"http://localhost:8080/images/garden.jpg", 20000);
-		Product Banana = new Product("p0002", "Banana", "A good fruit with very cheap price",
+		Product Banana = new Product("p0002-mock", "Banana-mock", "A good fruit with very cheap price",
 				"http://localhost:8080/images/banana.jpg", 150);
-		Product Orange = new Product("p0003", "Orange", "Nothing good about it",
-				"http://localhost:8080/images/orange.jpg", 280);
-		Product Papaya = new Product("p0004", "Papaya", "Use for papaya salad",
+		Product Papaya = new Product("p0004-mock", "Papaya-mock", "Use for papaya salad",
 				"http://localhost:8080/images/papaya.jpg", 12);
-		Product Rambutan = new Product("p0005", "Rambutan", "An expensive fruit from the sout",
+		Product Rambutan = new Product("p0005-mock", "Rambutan-mock", "An expensive fruit from the sout",
 				"http://localhost:8080/images/rambutan.jpg", 20);
-		Product Unknow = new Product("p0006", "Unknow", "Don't use this", "http://localhost:8080/images/rambutan.jpg",
-				-1);
 
-		SaleOrder order1 = new SaleOrder();
-		order1.setSaleOrderId("o001");
-		List<SaleTransaction> transactList1 = new ArrayList<SaleTransaction>();
-		transactList1.add(new SaleTransaction("t001", Garden, 1));
-		transactList1.add(new SaleTransaction("t002", Papaya, 10));
-		mockOrders.add(order1);
+		List<SaleTransaction> transactMockList1 = new ArrayList<SaleTransaction>();
+		transactMockList1.add(new SaleTransaction("t001-mock", Garden, 1));
+		transactMockList1.add(new SaleTransaction("t002-mock", Papaya, 10));
+		mockOrders.add(new SaleOrder("o001-mock", transactMockList1));
 
-		SaleOrder order2 = new SaleOrder();
-		order2.setSaleOrderId("o002");
-		List<SaleTransaction> transactList2 = new ArrayList<SaleTransaction>();
-		transactList2.add(new SaleTransaction("t003", Banana, 2));
-		transactList2.add(new SaleTransaction("t004", Garden, 3));
-		transactList2.add(new SaleTransaction("t005", Banana, 1));
-		transactList2.add(new SaleTransaction("t006", Rambutan, 6));
-		mockOrders.add(order2);
+		List<SaleTransaction> transactMockList2 = new ArrayList<SaleTransaction>();
+		transactMockList2.add(new SaleTransaction("t003-mock", Banana, 2));
+		transactMockList2.add(new SaleTransaction("t004-mock", Garden, 3));
+		transactMockList2.add(new SaleTransaction("t005-mock", Banana, 1));
+		transactMockList2.add(new SaleTransaction("t006-mock", Rambutan, 6));
+		mockOrders.add(new SaleOrder("o002-mock", transactMockList2));
 
 		when(orderDao.getOrders()).thenReturn(mockOrders);
-	}
-
-	@Test
-	public void testGetSaleOrdersWithMock() {
-		List<SaleOrder> list = saleOrderSrv.getSaleOrders();
-		assertThat(list.size(), is(2));
+		assertThat(mockOrders, is(notNullValue()));
+		assertThat(mockOrders.size(), is(2));
+		assertThat(mockOrders.get(0), is(new SaleOrder("o001-mock", transactMockList1)));
+		assertThat(mockOrders.get(1), is(new SaleOrder("o002-mock", transactMockList2)));
 	}
 }
