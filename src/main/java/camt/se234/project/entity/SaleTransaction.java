@@ -25,6 +25,9 @@ public class SaleTransaction {
     Product product;
     int amount;
     
+   public SaleTransaction() {
+	   
+   }
    public SaleTransaction(String transactionId,Product product,int amount) {
 	   this.transactionId = transactionId;
 	   this.product = product;
