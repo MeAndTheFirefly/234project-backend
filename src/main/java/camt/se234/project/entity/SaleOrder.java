@@ -25,9 +25,6 @@ public class SaleOrder {
 	@OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	List<SaleTransaction> transactions = new ArrayList<SaleTransaction>();
 
-	public SaleOrder() {
-	}
-
 	public SaleOrder(String saleOrdId, List<SaleTransaction> transactions) {
 		this.saleOrderId = saleOrdId;
 		this.transactions = transactions;

@@ -26,10 +26,8 @@ public class Product {
     String description;
     String imageLocation;
     double price;
-    
-    public Product() { }
-    
-	public Product(String productId, String name, String description,
+
+    public Product(String productId, String name, String description,
 			String imageLocation, double price) {
 		super();
 		this.productId = productId;

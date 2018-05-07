@@ -15,75 +15,73 @@ import javax.persistence.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class SaleTransaction {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    Long id;
-    String transactionId;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	Long id;
+	String transactionId;
 
-    @ManyToOne
-    @JoinColumn(name = "order_id")
-    SaleOrder order;
-    @OneToOne (fetch = FetchType.EAGER)
-    Product product;
-    int amount;
-    
-   public SaleTransaction() {
-	   
-   }
-   public SaleTransaction(String transactionId,Product product,int amount) {
-	   this.transactionId = transactionId;
-	   this.product = product;
-	   this.amount = amount;
-   }
-    public Long getId() {
-        return id;
-    }
+	@ManyToOne
+	@JoinColumn(name = "order_id")
+	SaleOrder order;
+	@OneToOne(fetch = FetchType.EAGER)
+	Product product;
+	int amount;
 
-    public String getTransactionId() {
-        return transactionId;
-    }
+	public SaleTransaction(String transactionId, Product product, int amount) {
+		this.transactionId = transactionId;
+		this.product = product;
+		this.amount = amount;
+	}
 
-    public void setTransactionId(String transactionId) {
-        this.transactionId = transactionId;
-    }
+	public Long getId() {
+		return id;
+	}
 
-    public SaleOrder getOrder() {
-        return order;
-    }
+	public String getTransactionId() {
+		return transactionId;
+	}
 
-    public void setOrder(SaleOrder order) {
-        this.order = order;
-    }
+	public void setTransactionId(String transactionId) {
+		this.transactionId = transactionId;
+	}
 
-    public Product getProduct() {
-        return product;
-    }
+	public SaleOrder getOrder() {
+		return order;
+	}
 
-    public void setProduct(Product product) {
-        this.product = product;
-    }
+	public void setOrder(SaleOrder order) {
+		this.order = order;
+	}
 
-    public int getAmount() {
-        return amount;
-    }
+	public Product getProduct() {
+		return product;
+	}
 
-    public void setAmount(int amount) {
-        this.amount = amount;
-    }
-    
+	public void setProduct(Product product) {
+		this.product = product;
+	}
+
+	public int getAmount() {
+		return amount;
+	}
+
+	public void setAmount(int amount) {
+		this.amount = amount;
+	}
+
 	@Override
 	public int hashCode() {
-		return Objects.hash(transactionId,product.hashCode(),amount);
+		return Objects.hash(transactionId, product.hashCode(), amount);
 	}
 
 	@Override
 	public boolean equals(Object st) {
 		return st != null && hashCode() == ((SaleTransaction) st).hashCode();
 	}
-	
+
 	@Override
 	public String toString() {
-		return "SaleTransaction [transactionId=" + transactionId + ", product=" + product
-				+ ", amount=" + amount + "]";
+		return "SaleTransaction [transactionId=" + transactionId + ", product="
+				+ product + ", amount=" + amount + "]";
 	}
 }

@@ -25,9 +25,6 @@ public class User {
 	String password;
 	String role;
 
-	public User() {
-	}
-
 	public User(String username, String password, String role) {
 		super();
 		this.username = username;
