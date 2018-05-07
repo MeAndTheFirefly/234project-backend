@@ -13,7 +13,7 @@ services:
     volumes:
       - type: bind
         source: /home/travis/logs
-        target: /var/log/nginx
+        target: /var/log
       - type: bind
         source: /home/travis/vol
         target: /usr/share/nginx/html/assets
