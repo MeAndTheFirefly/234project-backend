@@ -2,6 +2,8 @@ package camt.se234.project.config;
 
 
 
+import java.io.InputStream;
+
 import camt.se234.project.utility.LoadDataFromExcel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +28,11 @@ public class DataLoader implements ApplicationRunner {
     String dataSourceFile;
     @Override
     public void run(ApplicationArguments applicationArguments) throws Exception {
-        loader.loadData(this.getClass().getClassLoader().getResourceAsStream(this.dataSourceFile));
+    	InputStream stream = this.getClass().getClassLoader().getResourceAsStream(this.dataSourceFile);
+    	if (stream == null) {
+    		System.err.println("Cannot load "+this.dataSourceFile);
+    		System.exit(1);
+    	}
+        loader.loadData(stream);
     }
 }
