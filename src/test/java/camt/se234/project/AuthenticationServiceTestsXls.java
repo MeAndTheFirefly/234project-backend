@@ -21,7 +21,7 @@ import camt.se234.project.service.AuthenticationServiceImpl;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class AuthenticationServiceTests {
+public class AuthenticationServiceTestsXls {
 
 	@Autowired
 	AuthenticationService authSrv;
@@ -36,20 +36,4 @@ public class AuthenticationServiceTests {
 		assertThat(fail, is(nullValue()));
 	}
 
-	@Test
-	public void testAuthMock() { //test authentication with mock data.
-		UserDao userDao = mock(UserDao.class);
-		((AuthenticationServiceImpl) authSrv).setUserDao(userDao);
-		assertThat(userDao, is(notNullValue()));
-
-		when(userDao.getUser("mockadmin", "adminpass")).thenReturn(new User("mockadmin", "adminpass", "admin"));
-		when(userDao.getUser("mockuser", "userpass")).thenReturn(new User("mockuser", "userpass", "user"));
-		when(userDao.getUser("mockhello", "hellopass")).thenReturn(new User("mockhello", "hellopass", "user"));
-
-		User admin = authSrv.authenticate("mockadmin", "adminpass");
-		assertThat(admin, is(notNullValue()));
-		assertThat(admin.getRole(), is("admin"));
-		User fail = authSrv.authenticate("mockuser", "wrongPass");
-		assertThat(fail, is(nullValue()));
-	}
 }
