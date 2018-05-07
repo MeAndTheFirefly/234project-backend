@@ -27,7 +27,7 @@ public class AuthenticationServiceTests {
 	AuthenticationService authSrv;
 
 	@Test
-	public void testAuth() {
+	public void testAuth() {  //test authentication with the data from xlsx file.
 		assertThat(authSrv, is(notNullValue()));
 		User admin = authSrv.authenticate("admin", "admin");
 		assertThat(admin, is(notNullValue()));
@@ -37,7 +37,7 @@ public class AuthenticationServiceTests {
 	}
 
 	@Test
-	public void testAuthMock() {
+	public void testAuthMock() { //test authentication with mock data.
 		UserDao userDao = mock(UserDao.class);
 		((AuthenticationServiceImpl) authSrv).setUserDao(userDao);
 		assertThat(userDao, is(notNullValue()));
