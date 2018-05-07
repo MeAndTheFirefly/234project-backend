@@ -28,6 +28,7 @@ public class Product {
 	double price;
 
 	public Product() {
+		super();
 	}
 
 	public Product(String productId, String name, String description,
