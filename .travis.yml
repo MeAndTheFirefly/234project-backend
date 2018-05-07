@@ -1,6 +1,5 @@
 language: java
 before_install:
-  - whoami
   - sudo curl -sL -o /usr/local/bin/docker-compose https://github.com/docker/compose/releases/download/1.21.0/docker-compose-"$(uname -s)"-"$(uname -m)"
   - sudo chmod    +x /usr/local/bin/docker-compose
 install:
@@ -11,4 +10,6 @@ script:
   - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
   - docker push meandthefirefly/234project-backend
 after_success:
+  - docker-compose -H "$DOCKER_HOST" stop -d
+  - docker-compose -H "$DOCKER_HOST" rm -d
   - docker-compose -H "$DOCKER_HOST" up -d
