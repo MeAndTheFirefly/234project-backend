@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.Cascade;
 
 import javax.persistence.*;
 
@@ -55,6 +54,7 @@ public class SaleOrder {
 	}
 
 	public List<SaleTransaction> getTransactions() {
+		if (transactions == null) System.out.println("transactions == null in SaleOrder.getTransactions");
 		return transactions;
 	}
 

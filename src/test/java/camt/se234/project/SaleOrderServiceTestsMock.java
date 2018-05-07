@@ -12,7 +12,7 @@ import java.util.List;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -26,12 +26,17 @@ import camt.se234.project.service.SaleOrderServiceImpl;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class SaleOrderServiceTestsMock {
-	@Autowired
+
+	// @Autowired
 	SaleOrderService saleOrderSrv;
+	
+	@Mock
+	OrderDao orderDao;
 
 	@Before
 	public void mockSetup() {
-		OrderDao orderDao = mock(OrderDao.class);
+		orderDao = mock(OrderDao.class);
+		saleOrderSrv = new SaleOrderServiceImpl();
 		((SaleOrderServiceImpl) saleOrderSrv).setOrderDao(orderDao);
 		List<SaleOrder> mockOrders = new ArrayList<SaleOrder>();
 
@@ -57,7 +62,6 @@ public class SaleOrderServiceTestsMock {
 		mockOrders.add(new SaleOrder("o002mock", o002mocklist));
 
 		when(orderDao.getOrders()).thenReturn(mockOrders);
-		System.out.println("getAverage test: "+saleOrderSrv.getAverageSaleOrderPrice());
 	}
 
 	@Test
@@ -83,5 +87,5 @@ public class SaleOrderServiceTestsMock {
 		// System.out.println("getAverageSaleOrderPrice: "+saleOrderSrv.getAverageSaleOrderPrice());
 		assertThat(saleOrderSrv.getAverageSaleOrderPrice(), is(5550.0));
 	}
-
+	
 }

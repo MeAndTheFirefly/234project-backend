@@ -1,15 +1,16 @@
 package camt.se234.project;
 
+import java.util.ArrayList;
+import java.util.List;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
-import java.util.ArrayList;
-import java.util.List;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.mockito.Mock;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import camt.se234.project.dao.ProductDao;
@@ -21,12 +22,17 @@ import camt.se234.project.service.ProductServiceImpl;
 @SpringBootTest
 
 public class ProductServiceTestsMock {
-	@Autowired
+
+	// @Autowired
 	ProductService productSrv;
+	
+	@Mock
+	ProductDao productDao;
 	
 	@Before
 	public void mockSetup() { // initial set up for mock data.
-		ProductDao productDao = mock(ProductDao.class);
+		productDao = mock(ProductDao.class);
+		productSrv = new ProductServiceImpl();
 		((ProductServiceImpl) productSrv).setProductDao(productDao);
 		List<Product> mockProducts = new ArrayList<Product>();
 		mockProducts.add(new Product("p01", "Den", "My garden den", "http://localhost:8080/images/p01.jpg", 11));
@@ -76,6 +82,5 @@ public class ProductServiceTestsMock {
 	public void testGetUnavailProdMock() { // test getUnavailableproducts with mock data.
 		assertThat(productSrv.getUnavailableProductSize(), is(1));
 	}
-	
 
 }

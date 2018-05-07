@@ -21,10 +21,8 @@ public class SaleOrderServiceImpl implements SaleOrderService {
     @Transactional
     public SaleOrder addSaleOrder(SaleOrder order) {
         SaleOrder saleOrder = orderDao.addOrder(order);
-        for (SaleTransaction transaction :
-                saleOrder.getTransactions()) {
+        for (SaleTransaction transaction : saleOrder.getTransactions()) {
             transaction.setOrder(saleOrder);
-
         }
         return saleOrder;
     }

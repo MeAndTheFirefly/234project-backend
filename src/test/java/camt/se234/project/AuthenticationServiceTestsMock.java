@@ -2,6 +2,8 @@ package camt.se234.project;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.Mock;
+
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsNull.notNullValue;
@@ -10,7 +12,6 @@ import static org.hamcrest.core.IsNull.nullValue;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -23,12 +24,16 @@ import camt.se234.project.service.AuthenticationServiceImpl;
 @SpringBootTest
 public class AuthenticationServiceTestsMock {
 
-	@Autowired
+	// @Autowired
 	AuthenticationService authSrv;
+	
+	@Mock
+	UserDao userDao;
 
 	@Test
 	public void testAuthMock() { //test authentication with mock data.
-		UserDao userDao = mock(UserDao.class);
+		userDao = mock(UserDao.class);
+		authSrv = new AuthenticationServiceImpl();
 		((AuthenticationServiceImpl) authSrv).setUserDao(userDao);
 		assertThat(userDao, is(notNullValue()));
 

@@ -5,6 +5,8 @@ import camt.se234.project.entity.SaleOrder;
 import camt.se234.project.entity.SaleTransaction;
 import camt.se234.project.repository.ProductRepository;
 import camt.se234.project.service.SaleOrderService;
+import camt.se234.project.service.SaleOrderServiceImpl;
+
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,26 +32,27 @@ public class ProjectApplicationTests {
     ProductRepository productRepository;
     @Autowired
     SaleOrderService saleOrderService;
+    
     @Test
     public void testAddTransaction(){
         SaleOrder order = new SaleOrder();
-                order.setSaleOrderId("O001");
+                order.setSaleOrderId("o011");
         Product p1 = productRepository.findByProductId("p0001");
         Product p2 = productRepository.findByProductId("p0002");
         List<SaleTransaction> transactions = new ArrayList<>();
         
         SaleTransaction sale = new SaleTransaction();
-	        sale.setTransactionId("t0001");
+	        sale.setTransactionId("t0011");
 	        sale.setProduct(p1);
 	        sale.setAmount(10);
         transactions.add(sale);
         
         SaleTransaction sale2 = new SaleTransaction();
-	        sale2.setTransactionId("t0002");
+	        sale2.setTransactionId("t0012");
 	        sale2.setProduct(p2);
 	        sale2.setAmount(12);
         transactions.add(sale2);
-         
+        
         order.setTransactions(transactions);
         SaleOrder result = saleOrderService.addSaleOrder(order);
         assertThat(result.getId(),is(notNullValue()));

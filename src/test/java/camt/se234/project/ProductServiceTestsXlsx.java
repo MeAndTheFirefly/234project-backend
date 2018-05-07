@@ -14,7 +14,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ProductServiceTestXlsx {
+public class ProductServiceTestsXlsx {
 
 	@Autowired
 	ProductService productSrv;
