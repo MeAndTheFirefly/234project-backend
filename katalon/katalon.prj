@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>SE234 katalon test project</description>
+   <name>katalon</name>
+   <tag></tag>
+   <UUID>920bb149-0978-41ff-b96e-9177583a0c3d</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>
