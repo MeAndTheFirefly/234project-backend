@@ -24,7 +24,6 @@ public class ProductServiceTestsMock {
 	@Autowired
 	ProductService productSrv;
 	
-	@Test
 	@Before
 	public void mockSetup() { // initial set up for mock data.
 		ProductDao productDao = mock(ProductDao.class);
