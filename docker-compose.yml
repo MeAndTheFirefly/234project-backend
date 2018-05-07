@@ -1,0 +1,14 @@
+version: '3.3'
+services:
+  backend:
+    image: meandthefirefly/234project-backend:latest
+    ports:
+      - "9099:8080"
+  frontend:
+    image: dto80/project234-frontend:latest
+    ports:
+      - "9089:80"
+    volumes:
+      - type: bind
+        source: /home/travis/vol
+        target: /usr/share/nginx/html/assets
