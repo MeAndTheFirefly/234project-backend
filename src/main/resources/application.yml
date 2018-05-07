@@ -9,7 +9,7 @@ graphql:
     enabled: true
 physicalImageLocation: /temp/
 imageServer: http://localhost:8080/images/
-dataSourceFile: assets/data.xlsx
+dataSourceFile: data.xlsx
 linux: false
 ---
 spring:

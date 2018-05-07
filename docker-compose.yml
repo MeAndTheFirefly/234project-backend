@@ -12,8 +12,5 @@ services:
       - "9089:80"
     volumes:
       - type: bind
-        source: /home/travis/logs
-        target: /var/log
-      - type: bind
         source: /home/travis/vol
         target: /usr/share/nginx/html/assets
