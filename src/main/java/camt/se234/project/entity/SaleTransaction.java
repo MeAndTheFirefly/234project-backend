@@ -28,6 +28,7 @@ public class SaleTransaction {
 	int amount;
 
 	public SaleTransaction() {
+		super();
 	}
 
 	public SaleTransaction(String transactionId, Product product, int amount) {

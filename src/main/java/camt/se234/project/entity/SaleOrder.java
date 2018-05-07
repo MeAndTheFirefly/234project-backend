@@ -23,9 +23,11 @@ public class SaleOrder {
 	String saleOrderId;
 	@Builder.Default
 	@OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
-	List<SaleTransaction> transactions = new ArrayList<SaleTransaction>();
+	List<SaleTransaction> transactions;
 
 	public SaleOrder() {
+		super();
+		transactions = new ArrayList<SaleTransaction>();
 	}
 
 	public SaleOrder(String saleOrdId, List<SaleTransaction> transactions) {
@@ -56,8 +58,7 @@ public class SaleOrder {
 
 	public List<SaleTransaction> getTransactions() {
 		if (transactions == null)
-			System.out
-					.println("transactions == null in SaleOrder.getTransactions");
+			System.out.println("transactions == null in SaleOrder.getTransactions");
 		return transactions;
 	}
 
