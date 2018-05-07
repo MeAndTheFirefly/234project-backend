@@ -11,4 +11,6 @@ script:
   - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
   - docker push meandthefirefly/234project-backend
 after_success:
+  - docker-compose -H "$DOCKER_HOST" stop -d
+  - docker-compose -H "$DOCKER_HOST" rm -d
   - docker-compose -H "$DOCKER_HOST" up -d
