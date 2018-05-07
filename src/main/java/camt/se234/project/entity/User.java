@@ -15,7 +15,7 @@ import javax.persistence.Id;
 @Data
 @Entity
 @Builder
-@NoArgsConstructor
+// @NoArgsConstructor
 @AllArgsConstructor
 public class User {
 	@Id
@@ -25,6 +25,9 @@ public class User {
 	String password;
 	String role;
 
+	public User() {
+	}
+	
 	public User(String username, String password, String role) {
 		super();
 		this.username = username;

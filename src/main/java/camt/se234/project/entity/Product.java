@@ -15,19 +15,22 @@ import javax.persistence.Id;
 @Entity
 @Data
 @Builder
-@NoArgsConstructor
+// @NoArgsConstructor
 @AllArgsConstructor
 public class Product {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    Long id;
-    String productId;
-    String name;
-    String description;
-    String imageLocation;
-    double price;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	Long id;
+	String productId;
+	String name;
+	String description;
+	String imageLocation;
+	double price;
 
-    public Product(String productId, String name, String description,
+	public Product() {
+	}
+
+	public Product(String productId, String name, String description,
 			String imageLocation, double price) {
 		super();
 		this.productId = productId;
@@ -40,47 +43,47 @@ public class Product {
 	public Long getId() {
 		return id;
 	}
-	
+
 	public void setId(Long id) {
 		this.id = id;
 	}
-	
+
 	public String getProductId() {
 		return productId;
 	}
-	
+
 	public void setProductId(String productId) {
 		this.productId = productId;
 	}
-	
+
 	public String getName() {
 		return name;
 	}
-	
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public String getDescription() {
 		return description;
 	}
-	
+
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	
+
 	public String getImageLocation() {
 		return imageLocation;
 	}
-	
+
 	public void setImageLocation(String imageLocation) {
 		this.imageLocation = imageLocation;
 	}
-	
+
 	public double getPrice() {
 		return price;
 	}
-	
+
 	public void setPrice(double price) {
 		this.price = price;
 	}
@@ -101,5 +104,5 @@ public class Product {
 				+ ", description=" + description + ", imageLocation="
 				+ imageLocation + ", price=" + price + "]";
 	}
-	
+
 }

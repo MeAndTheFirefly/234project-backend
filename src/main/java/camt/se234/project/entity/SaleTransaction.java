@@ -12,7 +12,7 @@ import javax.persistence.*;
 @Entity
 @Data
 @Builder
-@NoArgsConstructor
+// @NoArgsConstructor
 @AllArgsConstructor
 public class SaleTransaction {
 	@Id
@@ -26,6 +26,9 @@ public class SaleTransaction {
 	@OneToOne(fetch = FetchType.EAGER)
 	Product product;
 	int amount;
+
+	public SaleTransaction() {
+	}
 
 	public SaleTransaction(String transactionId, Product product, int amount) {
 		this.transactionId = transactionId;

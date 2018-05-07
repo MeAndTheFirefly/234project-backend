@@ -14,7 +14,7 @@ import java.util.Objects;
 @Entity
 @Builder
 @Data
-@NoArgsConstructor
+// @NoArgsConstructor
 @AllArgsConstructor
 public class SaleOrder {
 	@Id
@@ -25,6 +25,9 @@ public class SaleOrder {
 	@OneToMany(mappedBy = "order", fetch = FetchType.EAGER, cascade = CascadeType.ALL)
 	List<SaleTransaction> transactions = new ArrayList<SaleTransaction>();
 
+	public SaleOrder() {
+	}
+
 	public SaleOrder(String saleOrdId, List<SaleTransaction> transactions) {
 		this.saleOrderId = saleOrdId;
 		this.transactions = transactions;
@@ -33,7 +36,8 @@ public class SaleOrder {
 	public double getTotalPrice() {
 		double totalPrice = 0;
 		for (SaleTransaction transaction : transactions) {
-			totalPrice += transaction.getAmount() * transaction.getProduct().getPrice();
+			totalPrice += transaction.getAmount()
+					* transaction.getProduct().getPrice();
 		}
 		return totalPrice;
 	}
@@ -51,7 +55,9 @@ public class SaleOrder {
 	}
 
 	public List<SaleTransaction> getTransactions() {
-		if (transactions == null) System.out.println("transactions == null in SaleOrder.getTransactions");
+		if (transactions == null)
+			System.out
+					.println("transactions == null in SaleOrder.getTransactions");
 		return transactions;
 	}
 
@@ -74,6 +80,7 @@ public class SaleOrder {
 
 	@Override
 	public String toString() {
-		return "SaleOrder [saleOrderId=" + saleOrderId + ", transactions="  + transactions + "]";
+		return "SaleOrder [saleOrderId=" + saleOrderId + ", transactions="
+				+ transactions + "]";
 	}
 }
