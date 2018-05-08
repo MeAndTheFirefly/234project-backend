@@ -24,17 +24,51 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Login Page/h1_SE 234 Project'))
+WebUI.click(findTestObject('Page_ProjectBackend/h1_SE 234 Project'))
 
-WebUI.click(findTestObject('Login Page/p_This is the mock app for the'))
+WebUI.click(findTestObject('Page_ProjectBackend/p_This is the mock app for the'))
 
-WebUI.click(findTestObject('Login Page/h2_Login'))
+WebUI.click(findTestObject('Page_ProjectBackend/h2_Login'))
 
-WebUI.click(findTestObject('Login Page/label_Username'))
+WebUI.click(findTestObject('Page_ProjectBackend/label_Username'))
 
-WebUI.click(findTestObject('Login Page/label_Password'))
+WebUI.click(findTestObject('Page_ProjectBackend/label_Password'))
 
-WebUI.click(findTestObject('Login Page/div_Login'))
+WebUI.click(findTestObject('Page_ProjectBackend/div_Login'))
+
+WebUI.setText(findTestObject('Page_ProjectBackend/input_username'), 'admin')
+
+WebUI.setText(findTestObject('Page_ProjectBackend/input_password'), 'admin')
+
+WebUI.click(findTestObject('Page_ProjectBackend/button_Login'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/div_Products'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/a_Total Transaction'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/h2_Transaction List'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/th_Transaction ID'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/th_'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/th_1'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/td_1'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/td_Garden Papaya'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/td_20120 THB'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/th_2'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/td_2'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/td_Banana Garden Banana Rambut'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/td_60570 THB'))
+
+WebUI.click(findTestObject('Page_ProjectBackend/p_Total price  80690 THB'))
 
 WebUI.closeBrowser()
 
