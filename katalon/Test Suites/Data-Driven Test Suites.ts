@@ -4,7 +4,7 @@
    <name>Data-Driven Test Suites</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T02:00:58</lastRun>
+   <lastRun>2018-05-09T02:12:47</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a3d9027a-7ea7-4d27-8e07-df76111accd2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Test User Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -41,7 +41,7 @@
    <testCaseLink>
       <guid>eadd306e-44bd-4bab-ac2d-4ee7637eb62d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Test Admin Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -68,7 +68,7 @@
    <testCaseLink>
       <guid>4cad49df-c348-4fc8-a050-c2a398236d38</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Test Available Products for Users - Scripted</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -113,13 +113,13 @@
    <testCaseLink>
       <guid>82ec3e5c-75f1-4f5e-a1cf-a9f597d1c07d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Test All Login Page elements present</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>56848dab-71ae-4ff7-8777-e2b8a459d5a5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Test User Logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -141,6 +141,33 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>3a797ce0-8679-4d2c-96bb-b69c40d6f715</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>586016a1-87fc-4395-8c4a-5ee9334b4931</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test User Login Fail</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e72e072d-3a10-4c7f-9db2-3f9f7dcc2d6d</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Incorrect_Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e72e072d-3a10-4c7f-9db2-3f9f7dcc2d6d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>incorrect_pass</value>
+         <variableId>0bdf1dcf-4186-432f-8d3d-881515ef218a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e72e072d-3a10-4c7f-9db2-3f9f7dcc2d6d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>incorrect_user</value>
+         <variableId>90bd4d1b-52cb-4724-9795-57df25d20fc8</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

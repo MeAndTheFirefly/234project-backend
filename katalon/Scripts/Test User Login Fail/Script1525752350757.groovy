@@ -24,25 +24,23 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Login Fail/h1_SE 234 Project'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/header'), 0)
 
-WebUI.click(findTestObject('Login Fail/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/p_header_description'), 0)
 
-WebUI.click(findTestObject('Login Fail/h2_Login'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/h2_Login'), 0)
 
-WebUI.click(findTestObject('Login Fail/label_Username'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Username'), 0)
 
-WebUI.click(findTestObject('Login Fail/label_Password'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Password'), 0)
 
-WebUI.click(findTestObject('Login Fail/div_Login'))
+WebUI.setText(findTestObject('Login Fail/input_username'), incorrect_user)
 
-WebUI.setText(findTestObject('Login Fail/input_username'), 'incorrectusername')
-
-WebUI.setText(findTestObject('Login Fail/input_password'), '123')
+WebUI.setText(findTestObject('Login Fail/input_password'), wrong_password)
 
 WebUI.click(findTestObject('Login Fail/button_Login'))
 
-WebUI.click(findTestObject('Login Fail/label_Usernamepassword is inco'))
+WebUI.verifyElementPresent(findTestObject('Login Fail/label_Usernamepassword is inco'), 0)
 
 WebUI.closeBrowser()
 
