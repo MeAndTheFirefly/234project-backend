@@ -3,7 +3,7 @@
    <description></description>
    <name>div_confirm</name>
    <tag></tag>
-   <elementGuidId>a8f552b6-e3a4-4190-a688-93aa7664d703</elementGuidId>
+   <elementGuidId>3f670b90-630c-4a0c-9aca-3d0eda8914f9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

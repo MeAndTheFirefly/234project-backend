@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Products</name>
    <tag></tag>
-   <elementGuidId>ff3c9b43-ead4-44f0-a67f-764cda297c3e</elementGuidId>
+   <elementGuidId>4315a586-f894-4031-8332-28990b0c912b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

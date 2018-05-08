@@ -3,7 +3,7 @@
    <description></description>
    <name>td_Banana</name>
    <tag></tag>
-   <elementGuidId>a340322c-6c53-4918-ac0b-276e21501cd7</elementGuidId>
+   <elementGuidId>eaeb7009-4ffe-47f8-a575-562a1839243f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

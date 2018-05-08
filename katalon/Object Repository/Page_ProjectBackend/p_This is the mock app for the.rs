@@ -3,7 +3,7 @@
    <description></description>
    <name>p_This is the mock app for the</name>
    <tag></tag>
-   <elementGuidId>e8cde023-1e4f-4d86-ad04-244074c5fdb9</elementGuidId>
+   <elementGuidId>04c8614a-a86e-409a-9182-dcc788b3ac8c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

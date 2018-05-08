@@ -3,7 +3,7 @@
    <description></description>
    <name>th_amount</name>
    <tag></tag>
-   <elementGuidId>ebaf021d-e3b9-416c-b96e-91078ba0f26d</elementGuidId>
+   <elementGuidId>73c7bd15-09a8-44ee-bed2-f43064bb40e9</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

@@ -3,7 +3,7 @@
    <description></description>
    <name>td_150 THB</name>
    <tag></tag>
-   <elementGuidId>bf6b987d-533d-4a4b-884c-b1959a059950</elementGuidId>
+   <elementGuidId>bb9ba2b6-cbf7-4abf-90da-910f31e73dee</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

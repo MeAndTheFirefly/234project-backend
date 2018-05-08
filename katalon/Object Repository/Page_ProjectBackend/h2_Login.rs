@@ -3,7 +3,7 @@
    <description></description>
    <name>h2_Login</name>
    <tag></tag>
-   <elementGuidId>ca42c610-fb33-496e-a611-a674dc60e142</elementGuidId>
+   <elementGuidId>38e3d2a4-a218-42a9-9d8a-38d3be8703f4</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

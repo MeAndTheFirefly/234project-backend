@@ -3,7 +3,7 @@
    <description></description>
    <name>p_Total price  20150 THB</name>
    <tag></tag>
-   <elementGuidId>a21da020-651a-4b49-8a94-386f535f0e0d</elementGuidId>
+   <elementGuidId>30f1021c-d6dc-41ba-a84d-3f4cfc8c3a68</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

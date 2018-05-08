@@ -24,67 +24,67 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Page_ProjectBackend/h1_SE 234 Project'))
+WebUI.click(findTestObject('add products/h1_SE 234 Project'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/p_This is the mock app for the'))
+WebUI.click(findTestObject('add products/p_This is the mock app for the'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/h2_Login'))
+WebUI.click(findTestObject('add products/h2_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/label_Username'))
+WebUI.click(findTestObject('add products/label_Username'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/label_Password'))
+WebUI.click(findTestObject('add products/label_Password'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Login'))
+WebUI.click(findTestObject('add products/div_Login'))
 
-WebUI.setText(findTestObject('Page_ProjectBackend/input_username'), 'user')
+WebUI.setText(findTestObject('add products/input_username'), 'user')
 
-WebUI.setText(findTestObject('Page_ProjectBackend/input_password'), 'user')
+WebUI.setText(findTestObject('add products/input_password'), 'user')
 
-WebUI.click(findTestObject('Page_ProjectBackend/button_Login'))
+WebUI.click(findTestObject('add products/button_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Products'))
+WebUI.click(findTestObject('add products/div_Products'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Garden            The gard'))
+WebUI.click(findTestObject('add products/div_Garden            The gard'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/button_add to cart'))
+WebUI.click(findTestObject('add products/button_add to cart'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_already added'))
+WebUI.click(findTestObject('add products/div_already added'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/h5_Banana'))
+WebUI.click(findTestObject('add products/h5_Banana'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Banana            A good f'))
+WebUI.click(findTestObject('add products/div_Banana            A good f'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/button_add to cart'))
+WebUI.click(findTestObject('add products/button_add to cart'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/a_Carts            2'))
+WebUI.click(findTestObject('add products/a_Carts            2'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_'))
+WebUI.click(findTestObject('add products/th_'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_Product Name'))
+WebUI.click(findTestObject('add products/th_Product Name'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_Price'))
+WebUI.click(findTestObject('add products/th_Price'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_amount'))
+WebUI.click(findTestObject('add products/th_amount'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_1'))
+WebUI.click(findTestObject('add products/th_1'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_Garden'))
+WebUI.click(findTestObject('add products/td_Garden'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_20000 THB'))
+WebUI.click(findTestObject('add products/td_20000 THB'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td'))
+WebUI.click(findTestObject('add products/td'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_2'))
+WebUI.click(findTestObject('add products/th_2'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_Banana'))
+WebUI.click(findTestObject('add products/td_Banana'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_150 THB'))
+WebUI.click(findTestObject('add products/td_150 THB'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_1'))
+WebUI.click(findTestObject('add products/td_1'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/p_Total price  20150 THB'))
+WebUI.click(findTestObject('add products/p_Total price  20150 THB'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_confirm'))
+WebUI.click(findTestObject('add products/div_confirm'))
 
 WebUI.closeBrowser()
 

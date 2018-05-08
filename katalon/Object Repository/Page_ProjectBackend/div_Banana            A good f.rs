@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Banana            A good f</name>
    <tag></tag>
-   <elementGuidId>3fded30f-4849-44f8-8e08-f27d3cc1dcec</elementGuidId>
+   <elementGuidId>856d9404-eae0-4306-83d1-488602519b74</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

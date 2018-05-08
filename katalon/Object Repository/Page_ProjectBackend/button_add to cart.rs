@@ -3,7 +3,7 @@
    <description></description>
    <name>button_add to cart</name>
    <tag></tag>
-   <elementGuidId>3b764af3-0846-49fc-a5aa-98ad38ae2c28</elementGuidId>
+   <elementGuidId>a489182a-9b79-429c-b58c-bbf35cdae060</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

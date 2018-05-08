@@ -3,7 +3,7 @@
    <description></description>
    <name>a_Carts            2</name>
    <tag></tag>
-   <elementGuidId>ccca66de-21bb-43e8-ae8b-fe769213cf32</elementGuidId>
+   <elementGuidId>d2aebe2f-7fb3-4da1-b8fa-eeee895133da</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

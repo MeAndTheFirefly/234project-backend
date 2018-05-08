@@ -3,7 +3,7 @@
    <description></description>
    <name>th_Price</name>
    <tag></tag>
-   <elementGuidId>cb99675c-78fb-47d3-b3a5-dd3b7a2013d8</elementGuidId>
+   <elementGuidId>4bbdc0a9-235f-4449-9bef-c5c0e966a02f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

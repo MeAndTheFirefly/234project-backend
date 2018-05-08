@@ -3,7 +3,7 @@
    <description></description>
    <name>th_2</name>
    <tag></tag>
-   <elementGuidId>785c3674-135c-4afe-8b44-4e138cdeb0f9</elementGuidId>
+   <elementGuidId>ca0b6fd6-527f-44c9-8ec1-7389ae230259</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
