@@ -7,15 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;navbarSupportedContent&quot;)/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;][count(. | //a[@href = '/cart' and (text() = 'Carts
+         <value>//a[@href = '/cart' and (text() = 'Carts
             
           ' or . = 'Carts
             
-          ')]) = count(//a[@href = '/cart' and (text() = 'Carts
-            
-          ' or . = 'Carts
-            
-          ')])]</value>
+          ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -65,7 +61,7 @@
           </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

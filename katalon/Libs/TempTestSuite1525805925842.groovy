@@ -27,8 +27,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Data-Driven Test Suites/20180509_013443/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Data-Driven Test Suites/20180509_015845/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Data-Driven Test Suites', suiteProperties, [new TestCaseBinding('Test Cases/Test User Login - Iteration 1', 'Test Cases/Test User Login',  [ 'password' : 'user' , 'username' : 'user' ,  ]), new TestCaseBinding('Test Cases/Test User Login - Iteration 2', 'Test Cases/Test User Login',  [ 'password' : 'hello' , 'username' : 'hello' ,  ]), new TestCaseBinding('Test Cases/Test Admin Login', 'Test Cases/Test Admin Login',  [ 'password' : 'admin' , 'username' : 'admin' ,  ]), new TestCaseBinding('Test Cases/Test Available Products for Users - Scripted - Iteration 1', 'Test Cases/Test Available Products for Users - Scripted',  [ 'password' : 'user' , 'username' : 'user' ,  ]), new TestCaseBinding('Test Cases/Test Available Products for Users - Scripted - Iteration 2', 'Test Cases/Test Available Products for Users - Scripted',  [ 'password' : 'hello' , 'username' : 'hello' ,  ])])
+TestCaseMain.startTestSuite('Test Suites/Data-Driven Test Suites', suiteProperties, [new TestCaseBinding('Test Cases/Test User Logout - Iteration 1', 'Test Cases/Test User Logout',  [ 'password' : 'admin' , 'username' : 'admin' ,  ]), new TestCaseBinding('Test Cases/Test User Logout - Iteration 2', 'Test Cases/Test User Logout',  [ 'password' : 'user' , 'username' : 'user' ,  ]), new TestCaseBinding('Test Cases/Test User Logout - Iteration 3', 'Test Cases/Test User Logout',  [ 'password' : 'hello' , 'username' : 'hello' ,  ])])

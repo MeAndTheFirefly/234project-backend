@@ -4,7 +4,7 @@
    <name>Data-Driven Test Suites</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T01:34:43</lastRun>
+   <lastRun>2018-05-09T02:00:58</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -108,6 +108,39 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>b0cdf1c0-54ed-4759-aee7-18a961ae6ef5</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>82ec3e5c-75f1-4f5e-a1cf-a9f597d1c07d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test All Login Page elements present</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>56848dab-71ae-4ff7-8777-e2b8a459d5a5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test User Logout</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>53006af3-8366-4045-a582-be2c2fb5a2b3</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/data.user</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>53006af3-8366-4045-a582-be2c2fb5a2b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>7cba0aef-82cd-4976-867e-5a7fd4db9106</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>53006af3-8366-4045-a582-be2c2fb5a2b3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>3a797ce0-8679-4d2c-96bb-b69c40d6f715</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

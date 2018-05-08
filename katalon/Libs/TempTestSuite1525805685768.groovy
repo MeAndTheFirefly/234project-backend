@@ -27,8 +27,8 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.m
 
 
 
-RunConfiguration.setExecutionSettingFile("/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Data-Driven Test Suites/20180509_012922/execution.properties")
+RunConfiguration.setExecutionSettingFile("/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Data-Driven Test Suites/20180509_015445/execution.properties")
 
 TestCaseMain.beforeStart()
 
-TestCaseMain.startTestSuite('Test Suites/Data-Driven Test Suites', suiteProperties, [new TestCaseBinding('Test Cases/Test User Login', 'Test Cases/Test User Login',  null), new TestCaseBinding('Test Cases/Test Admin Login', 'Test Cases/Test Admin Login',  null), new TestCaseBinding('Test Cases/Test Available Products for Users - Scripted - Iteration 1', 'Test Cases/Test Available Products for Users - Scripted',  [ 'password' : 'user' , 'username' : 'user' ,  ]), new TestCaseBinding('Test Cases/Test Available Products for Users - Scripted - Iteration 2', 'Test Cases/Test Available Products for Users - Scripted',  [ 'password' : 'hello' , 'username' : 'hello' ,  ])])
+TestCaseMain.startTestSuite('Test Suites/Data-Driven Test Suites', suiteProperties, [new TestCaseBinding('Test Cases/Test User Logout', 'Test Cases/Test User Logout',  null)])

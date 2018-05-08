@@ -24,43 +24,53 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/h1_SE 234 Project'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/header'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/p_header_description'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/h2_Login'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/h2_Login'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/div_Username'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Username'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/div_Password'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Password'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/div_Login'))
+WebUI.setText(findTestObject('all_Objects/input_username'), username)
 
-WebUI.setText(findTestObject('Page_ProjectBackend (1)/input_username'), 'user')
+WebUI.setText(findTestObject('all_Objects/input_password'), password)
 
-WebUI.setText(findTestObject('Page_ProjectBackend (1)/input_password'), 'user')
+WebUI.click(findTestObject('all_Objects/button_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/button_Login'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/header'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/div_Products'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/p_header_description'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/div_add to cart'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/h1_SE 234 Project'))
+WebUI.click(findTestObject('all_Objects/button_Carts'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/button_Logout'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/User_Shopping Cart_header'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/h1_SE 234 Project'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/th_Product Name'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/th_Price'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/h2_Login'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/th_amount'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/div_Username'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/p_Total price  0 THB'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/div_Password'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/div_confirm'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (1)/div_Login'))
+WebUI.click(findTestObject('all_Objects/button_Logout'))
+
+WebUI.verifyElementPresent(findTestObject('all_Objects/header'), 0)
+
+WebUI.verifyElementPresent(findTestObject('all_Objects/p_header_description'), 0)
+
+WebUI.verifyElementPresent(findTestObject('all_Objects/h2_Login'), 0)
+
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Username'), 0)
+
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Password'), 0)
 
 WebUI.closeBrowser()
 

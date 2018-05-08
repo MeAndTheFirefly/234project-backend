@@ -24,17 +24,15 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Login Page/h1_SE 234 Project'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/header'), 0)
 
-WebUI.click(findTestObject('Login Page/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/p_header_description'), 0)
 
-WebUI.click(findTestObject('Login Page/h2_Login'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/h2_Login'), 0)
 
-WebUI.click(findTestObject('Login Page/label_Username'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Username'), 0)
 
-WebUI.click(findTestObject('Login Page/label_Password'))
-
-WebUI.click(findTestObject('Login Page/div_Login'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Password'), 0)
 
 WebUI.closeBrowser()
 

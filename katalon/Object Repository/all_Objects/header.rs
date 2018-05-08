@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;row&quot;]/app-top-banner[@class=&quot;col-12&quot;]/div[@class=&quot;jumbotron&quot;]/h1[@class=&quot;display-4&quot;][count(. | //h1[(text() = 'SE 234 Project' or . = 'SE 234 Project')]) = count(//h1[(text() = 'SE 234 Project' or . = 'SE 234 Project')])]</value>
+         <value>//h1[(text() = 'SE 234 Project' or . = 'SE 234 Project')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -34,7 +34,7 @@
       <value>SE 234 Project</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

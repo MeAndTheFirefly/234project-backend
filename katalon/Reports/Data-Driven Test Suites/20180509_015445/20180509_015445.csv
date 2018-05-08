@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Data-Driven Test Suites,Chrome 66.0.3359.139,,2018-05-09 01:54:48,2018-05-09 01:55:02,14.475s,ERROR
+,,,,,,
+Test Cases/Test User Logout,Chrome 66.0.3359.139,,2018-05-09 01:54:48,2018-05-09 01:55:02,13.806s,ERROR
+openBrowser,Chrome 66.0.3359.139,,2018-05-09 01:54:49,2018-05-09 01:54:51,2.913s,PASSED
+navigateToUrl,Chrome 66.0.3359.139,,2018-05-09 01:54:51,2018-05-09 01:55:01,10.036s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-09 01:55:01,2018-05-09 01:55:02,0.148s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-09 01:55:02,2018-05-09 01:55:02,0.063s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-09 01:55:02,2018-05-09 01:55:02,0.051s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-09 01:55:02,2018-05-09 01:55:02,0.043s,PASSED
+verifyElementPresent,Chrome 66.0.3359.139,,2018-05-09 01:55:02,2018-05-09 01:55:02,0.048s,PASSED
+setText,Chrome 66.0.3359.139,,2018-05-09 01:55:02,2018-05-09 01:55:02,0.017s,PASSED
