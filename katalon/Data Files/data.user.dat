@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>167e188f-d8da-4b36-9bf7-de6bb7f1d79d</dataFileGUID>
-   <dataSourceUrl>/Users/snailwalker/Desktop/transaction.xlsx</dataSourceUrl>
+   <dataSourceUrl>Data Files/data.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>user</sheetName>
