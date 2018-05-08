@@ -70,6 +70,18 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test User Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7717d9a5-390c-4315-b633-d04ce99832b3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75392b54-2ce3-4763-b82c-a0cf48b933fa</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c714cacb-7223-4214-87ef-f4daccf1f355</guid>

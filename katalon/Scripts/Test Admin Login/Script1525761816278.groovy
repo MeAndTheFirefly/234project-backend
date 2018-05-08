@@ -36,9 +36,9 @@ WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/div_Password'
 
 WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/div_Login'), 0)
 
-WebUI.setText(findTestObject('Page_ProjectBackend (3)/input_username'), username)
+WebUI.setText(findTestObject('all_Objects/input_username'), username)
 
-WebUI.setText(findTestObject('Page_ProjectBackend (3)/input_password'), password)
+WebUI.setText(findTestObject('all_Objects/input_password'), password)
 
 WebUI.click(findTestObject('Page_ProjectBackend (3)/button_Login'))
 

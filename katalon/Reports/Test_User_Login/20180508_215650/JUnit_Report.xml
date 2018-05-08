@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test_User_Login" time="90" tests="0" failures="2" errors="0">
+   <testsuite name="Test_User_Login" tests="0" failures="2" errors="0" time="90" timestamp="2018-05-08 21:56:52" hostname="snailwalker - 192.168.0.101" id="Test Suites/Test_User_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test_User_Login/20180508_215650"/>
+         <property name="logFiles" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test_User_Login/20180508_215650/execution0.log"/>
+         <property name="attachments" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test_User_Login/20180508_215650/1525791456073.png, /Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test_User_Login/20180508_215650/1525791502000.png"/>
+         <property name="hostName" value="snailwalker - 192.168.0.101"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="55a4664423f260f57c6747e5272959ee"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test User Login" classname="Test Cases/Test User Login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'user' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/form[@class=&quot;ng-untouched ng-invalid ng-dirty&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control ng-untouched ng-dirty ng-valid&quot;][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)"/>
+         <system-out><![CDATA[2018-05-08 21:56:52 - [TEST_CASE][FAILED] - Test Cases/Test User Login: Test Cases/Test User Login FAILED because (of) Unable to set text 'user' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)
+
+2018-05-08 21:56:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 21:56:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 21:56:56 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 21:57:04 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 21:57:04 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/header' is present
+
+2018-05-08 21:57:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/header' is present
+
+2018-05-08 21:57:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/p_header_description' is present
+
+2018-05-08 21:57:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/p_header_description' is present
+
+2018-05-08 21:57:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/h2_Login' is present
+
+2018-05-08 21:57:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/h2_Login' is present
+
+2018-05-08 21:57:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/label_Username' is present
+
+2018-05-08 21:57:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/label_Username' is present
+
+2018-05-08 21:57:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/label_Password' is present
+
+2018-05-08 21:57:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/label_Password' is present
+
+2018-05-08 21:57:05 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/div_Login' is present
+
+2018-05-08 21:57:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:05 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/div_Login' is present
+
+2018-05-08 21:57:05 - [TEST_STEP][FAILED] - setText: Unable to set text 'user' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)
+
+2018-05-08 21:57:36 - [MESSAGE][FAILED] - Unable to set text 'user' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)
+[[ATTACHMENT|/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test_User_Login/20180508_215650/1525791456073.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-08 21:56:52 - [TEST_CASE][FAILED] - Test Cases/Test User Login: Test Cases/Test User Login FAILED because (of) Unable to set text 'user' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test User Login" classname="Test Cases/Test User Login" status="FAILED">
+         <failure type="FAILED" message="Unable to set text 'hello' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/form[@class=&quot;ng-untouched ng-invalid ng-dirty&quot;]/div[@class=&quot;form-group&quot;]/input[@class=&quot;form-control ng-untouched ng-dirty ng-valid&quot;][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)"/>
+         <system-out><![CDATA[2018-05-08 21:57:36 - [TEST_CASE][FAILED] - Test Cases/Test User Login: Test Cases/Test User Login FAILED because (of) Unable to set text 'hello' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)
+
+2018-05-08 21:57:36 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 21:57:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 21:57:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 21:57:37 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 21:57:50 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 21:57:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/header' is present
+
+2018-05-08 21:57:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/header' is present
+
+2018-05-08 21:57:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/p_header_description' is present
+
+2018-05-08 21:57:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/p_header_description' is present
+
+2018-05-08 21:57:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/h2_Login' is present
+
+2018-05-08 21:57:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/h2_Login' is present
+
+2018-05-08 21:57:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/label_Username' is present
+
+2018-05-08 21:57:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/label_Username' is present
+
+2018-05-08 21:57:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/label_Password' is present
+
+2018-05-08 21:57:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/label_Password' is present
+
+2018-05-08 21:57:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/all_Objects/div_Login' is present
+
+2018-05-08 21:57:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-08 21:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/all_Objects/div_Login' is present
+
+2018-05-08 21:57:51 - [TEST_STEP][FAILED] - setText: Unable to set text 'hello' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)
+
+2018-05-08 21:58:22 - [MESSAGE][FAILED] - Unable to set text 'hello' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)
+[[ATTACHMENT|/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test_User_Login/20180508_215650/1525791502000.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-08 21:57:36 - [TEST_CASE][FAILED] - Test Cases/Test User Login: Test Cases/Test User Login FAILED because (of) Unable to set text 'hello' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 21:56:52 - [TEST_SUITE][FAILED] - Test_User_Login: Test Cases/Test User Login FAILED because (of) Unable to set text 'user' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-08 21:56:52 - [TEST_SUITE][FAILED] - Test_User_Login: Test Cases/Test User Login FAILED because (of) Unable to set text 'user' of object 'Object Repository/all_Objects/input_username' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/all_Objects/input_username' located by 'By.xpath: /html[1]/body[1]/app-root[1]/app-login[1]/div[@class="col-md-6 col-md-offset-3"]/form[@class="ng-untouched ng-invalid ng-dirty"]/div[@class="form-group"]/input[@class="form-control ng-untouched ng-dirty ng-valid"][count(. | //input[@name = 'username' and @type = 'text']) = count(//input[@name = 'username' and @type = 'text'])]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
