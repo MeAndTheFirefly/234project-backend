@@ -24,27 +24,25 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Empty Password/h1_SE 234 Project'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/header'), 0)
 
-WebUI.click(findTestObject('Empty Password/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/p_header_description'), 0)
 
-WebUI.click(findTestObject('Empty Password/h2_Login'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/h2_Login'), 0)
 
-WebUI.click(findTestObject('Empty Password/label_Username'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Username'), 0)
 
-WebUI.click(findTestObject('Empty Password/label_Password'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Password'), 0)
 
-WebUI.click(findTestObject('Empty Password/div_Login'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/div_Login'), 0)
 
-WebUI.setText(findTestObject('Empty Password/input_username'), 'user')
+WebUI.setText(findTestObject('all_Objects/input_username'), username)
 
-WebUI.setText(findTestObject('Empty Password/input_password'), '')
+WebUI.setText(findTestObject('all_Objects/input_password'), '')
 
-WebUI.click(findTestObject('Login Fail/button_Login'))
+WebUI.click(findTestObject('all_Objects/button_Login'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Empty Password/div_Password'))
-
-WebUI.click(findTestObject('Empty Password/label_Password is required'))
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Password is required'), 0)
 
 WebUI.closeBrowser()
 

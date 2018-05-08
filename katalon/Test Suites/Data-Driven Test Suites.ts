@@ -4,7 +4,7 @@
    <name>Data-Driven Test Suites</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T02:12:47</lastRun>
+   <lastRun>2018-05-09T02:34:41</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -146,7 +146,7 @@
    <testCaseLink>
       <guid>586016a1-87fc-4395-8c4a-5ee9334b4931</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Test User Login Fail</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -168,6 +168,27 @@
          <type>DATA_COLUMN</type>
          <value>incorrect_user</value>
          <variableId>90bd4d1b-52cb-4724-9795-57df25d20fc8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f4e8b910-fccf-47a8-85cb-18a3fa42eb62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Empty Password Field</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0b941a1d-7285-4b34-812f-1c70d2edf9be</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/data.user</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0b941a1d-7285-4b34-812f-1c70d2edf9be</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>20aad4df-18d3-4d3e-9b3b-c8132864df74</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
