@@ -24,51 +24,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Admin Login/h1_SE 234 Project'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/h1_SE 234 Project'))
 
-WebUI.click(findTestObject('Admin Login/p_This is the mock app for the'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/p_This is the mock app for the'))
 
-WebUI.click(findTestObject('Admin Login/h2_Login'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/h2_Login'))
 
-WebUI.click(findTestObject('Admin Login/label_Username'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Username'))
 
-WebUI.click(findTestObject('Admin Login/label_Password'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Password'))
 
-WebUI.click(findTestObject('Admin Login/div_Login'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Login'))
 
-WebUI.setText(findTestObject('Admin Login/input_username'), 'admin')
+WebUI.setText(findTestObject('Page_ProjectBackend (3)/input_username'), 'admin')
 
-WebUI.setText(findTestObject('Admin Login/input_password'), 'admin')
+WebUI.setText(findTestObject('Page_ProjectBackend (3)/input_password'), 'admin')
 
-WebUI.click(findTestObject('Admin Login/button_Login'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/button_Login'))
 
-WebUI.click(findTestObject('Admin Login/div_Products'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/p_This is the mock app for the'))
 
-WebUI.click(findTestObject('Admin Login/a_Total Transaction'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Products'))
 
-WebUI.click(findTestObject('Admin Login/h2_Transaction List'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/a_Total Transaction'))
 
-WebUI.click(findTestObject('Admin Login/th_Transaction ID'))
-
-WebUI.click(findTestObject('Admin Login/th_'))
-
-WebUI.click(findTestObject('Admin Login/th_1'))
-
-WebUI.click(findTestObject('Admin Login/td_1'))
-
-WebUI.click(findTestObject('Admin Login/td_Garden Papaya'))
-
-WebUI.click(findTestObject('Admin Login/td_20120 THB'))
-
-WebUI.click(findTestObject('Admin Login/th_2'))
-
-WebUI.click(findTestObject('Admin Login/td_2'))
-
-WebUI.click(findTestObject('Admin Login/td_Banana Garden Banana Rambut'))
-
-WebUI.click(findTestObject('Admin Login/td_60570 THB'))
-
-WebUI.click(findTestObject('Admin Login/p_Total price  80690 THB'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Transaction List'))
 
 WebUI.closeBrowser()
 

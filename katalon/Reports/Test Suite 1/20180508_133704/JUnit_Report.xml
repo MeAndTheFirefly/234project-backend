@@ -1,0 +1,1249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="330" tests="11" failures="1" errors="0">
+   <testsuite name="Test Suite 1" tests="11" failures="1" errors="0" time="330" timestamp="2018-05-08 13:37:06" hostname="snailwalker - 192.168.0.101" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test Suite 1/20180508_133704"/>
+         <property name="logFiles" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test Suite 1/20180508_133704/execution0.log"/>
+         <property name="attachments" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test Suite 1/20180508_133704/1525761589020.png"/>
+         <property name="hostName" value="snailwalker - 192.168.0.101"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="ea62f7e2a609225b3d08b06807ceafba"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Test User Logout" classname="Test Cases/Test User Logout" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:37:07 - [TEST_CASE][PASSED] - Test Cases/Test User Logout: Test Cases/Test User Logout
+
+2018-05-08 13:37:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:37:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:37:11 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:37:23 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:37:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:37:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:37:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:37:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/h2_Login' is clicked on
+
+2018-05-08 13:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/h2_Login' is clicked on
+
+2018-05-08 13:37:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/div_Username' is clicked on
+
+2018-05-08 13:37:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/div_Username' is clicked on
+
+2018-05-08 13:37:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/div_Password' is clicked on
+
+2018-05-08 13:37:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/div_Password' is clicked on
+
+2018-05-08 13:37:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/div_Login' is clicked on
+
+2018-05-08 13:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/div_Login' is clicked on
+
+2018-05-08 13:37:55 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_ProjectBackend (1)/input_username'
+
+2018-05-08 13:37:55 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_ProjectBackend (1)/input_username'
+
+2018-05-08 13:37:55 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Page_ProjectBackend (1)/input_password'
+
+2018-05-08 13:37:55 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Page_ProjectBackend (1)/input_password'
+
+2018-05-08 13:37:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/button_Login' is clicked on
+
+2018-05-08 13:38:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/button_Login' is clicked on
+
+2018-05-08 13:38:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/div_Products' is clicked on
+
+2018-05-08 13:38:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/div_Products' is clicked on
+
+2018-05-08 13:38:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:38:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:38:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:38:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/button_Logout' is clicked on
+
+2018-05-08 13:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/button_Logout' is clicked on
+
+2018-05-08 13:38:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:38:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:38:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/h2_Login' is clicked on
+
+2018-05-08 13:38:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/h2_Login' is clicked on
+
+2018-05-08 13:38:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/div_Username' is clicked on
+
+2018-05-08 13:38:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/div_Username' is clicked on
+
+2018-05-08 13:38:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/div_Password' is clicked on
+
+2018-05-08 13:38:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/div_Password' is clicked on
+
+2018-05-08 13:38:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (1)/div_Login' is clicked on
+
+2018-05-08 13:39:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (1)/div_Login' is clicked on
+
+2018-05-08 13:39:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:39:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Admin Login" classname="Test Cases/Test Admin Login" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/Admin Login/p_Total price  80690 THB' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Login/p_Total price  80690 THB' located by 'By.xpath: //p[(text() = 'Total price:  80,690 THB' or . = 'Total price:  80,690 THB')]' not found)"/>
+         <system-out><![CDATA[2018-05-08 13:39:04 - [TEST_CASE][FAILED] - Test Cases/Test Admin Login: Test Cases/Test Admin Login FAILED because (of) Unable to click on object 'Object Repository/Admin Login/p_Total price  80690 THB' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Login/p_Total price  80690 THB' located by 'By.xpath: //p[(text() = 'Total price:  80,690 THB' or . = 'Total price:  80,690 THB')]' not found)
+
+2018-05-08 13:39:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:39:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:39:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:39:15 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:39:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:39:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:39:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/h2_Login' is clicked on
+
+2018-05-08 13:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/h2_Login' is clicked on
+
+2018-05-08 13:39:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/label_Username' is clicked on
+
+2018-05-08 13:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/label_Username' is clicked on
+
+2018-05-08 13:39:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/label_Password' is clicked on
+
+2018-05-08 13:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/label_Password' is clicked on
+
+2018-05-08 13:39:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/div_Login' is clicked on
+
+2018-05-08 13:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/div_Login' is clicked on
+
+2018-05-08 13:39:15 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin Login/input_username'
+
+2018-05-08 13:39:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin Login/input_username'
+
+2018-05-08 13:39:15 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Admin Login/input_password'
+
+2018-05-08 13:39:15 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Admin Login/input_password'
+
+2018-05-08 13:39:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/button_Login' is clicked on
+
+2018-05-08 13:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/button_Login' is clicked on
+
+2018-05-08 13:39:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/div_Products' is clicked on
+
+2018-05-08 13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/div_Products' is clicked on
+
+2018-05-08 13:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/a_Total Transaction' is clicked on
+
+2018-05-08 13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/a_Total Transaction' is clicked on
+
+2018-05-08 13:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/h2_Transaction List' is clicked on
+
+2018-05-08 13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/h2_Transaction List' is clicked on
+
+2018-05-08 13:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/th_Transaction ID' is clicked on
+
+2018-05-08 13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/th_Transaction ID' is clicked on
+
+2018-05-08 13:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/th_' is clicked on
+
+2018-05-08 13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/th_' is clicked on
+
+2018-05-08 13:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/th_1' is clicked on
+
+2018-05-08 13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/th_1' is clicked on
+
+2018-05-08 13:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/td_1' is clicked on
+
+2018-05-08 13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/td_1' is clicked on
+
+2018-05-08 13:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/td_Garden Papaya' is clicked on
+
+2018-05-08 13:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/td_Garden Papaya' is clicked on
+
+2018-05-08 13:39:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/td_20120 THB' is clicked on
+
+2018-05-08 13:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/td_20120 THB' is clicked on
+
+2018-05-08 13:39:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/th_2' is clicked on
+
+2018-05-08 13:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/th_2' is clicked on
+
+2018-05-08 13:39:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/td_2' is clicked on
+
+2018-05-08 13:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/td_2' is clicked on
+
+2018-05-08 13:39:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/td_Banana Garden Banana Rambut' is clicked on
+
+2018-05-08 13:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/td_Banana Garden Banana Rambut' is clicked on
+
+2018-05-08 13:39:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Admin Login/td_60570 THB' is clicked on
+
+2018-05-08 13:39:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin Login/td_60570 THB' is clicked on
+
+2018-05-08 13:39:18 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Admin Login/p_Total price  80690 THB' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Login/p_Total price  80690 THB' located by 'By.xpath: //p[(text() = 'Total price:  80,690 THB' or . = 'Total price:  80,690 THB')]' not found)
+
+2018-05-08 13:39:49 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Admin Login/p_Total price  80690 THB' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Login/p_Total price  80690 THB' located by 'By.xpath: //p[(text() = 'Total price:  80,690 THB' or . = 'Total price:  80,690 THB')]' not found)
+[[ATTACHMENT|/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Test Suite 1/20180508_133704/1525761589020.png]]]]></system-out>
+         <system-err><![CDATA[2018-05-08 13:39:04 - [TEST_CASE][FAILED] - Test Cases/Test Admin Login: Test Cases/Test Admin Login FAILED because (of) Unable to click on object 'Object Repository/Admin Login/p_Total price  80690 THB' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Login/p_Total price  80690 THB' located by 'By.xpath: //p[(text() = 'Total price:  80,690 THB' or . = 'Total price:  80,690 THB')]' not found)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test All Login Page elements present" classname="Test Cases/Test All Login Page elements present" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:39:49 - [TEST_CASE][PASSED] - Test Cases/Test All Login Page elements present: Test Cases/Test All Login Page elements present
+
+2018-05-08 13:39:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:39:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 13:39:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:39:50 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:40:03 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/h2_Login' is clicked on
+
+2018-05-08 13:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/h2_Login' is clicked on
+
+2018-05-08 13:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/label_Username' is clicked on
+
+2018-05-08 13:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/label_Username' is clicked on
+
+2018-05-08 13:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/label_Password' is clicked on
+
+2018-05-08 13:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/label_Password' is clicked on
+
+2018-05-08 13:40:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Page/div_Login' is clicked on
+
+2018-05-08 13:40:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/div_Login' is clicked on
+
+2018-05-08 13:40:03 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:40:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test User Login Fail" classname="Test Cases/Test User Login Fail" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:40:03 - [TEST_CASE][PASSED] - Test Cases/Test User Login Fail: Test Cases/Test User Login Fail
+
+2018-05-08 13:40:03 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:40:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:40:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:40:14 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:40:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Fail/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Fail/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Fail/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Fail/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Fail/h2_Login' is clicked on
+
+2018-05-08 13:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Fail/h2_Login' is clicked on
+
+2018-05-08 13:40:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Fail/label_Username' is clicked on
+
+2018-05-08 13:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Fail/label_Username' is clicked on
+
+2018-05-08 13:40:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Fail/label_Password' is clicked on
+
+2018-05-08 13:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Fail/label_Password' is clicked on
+
+2018-05-08 13:40:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Fail/div_Login' is clicked on
+
+2018-05-08 13:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Fail/div_Login' is clicked on
+
+2018-05-08 13:40:14 - [TEST_STEP][PASSED] - setText: Text 'incorrectusername' is set on object 'Object Repository/Login Fail/input_username'
+
+2018-05-08 13:40:15 - [MESSAGE][PASSED] - Text 'incorrectusername' is set on object 'Object Repository/Login Fail/input_username'
+
+2018-05-08 13:40:15 - [TEST_STEP][PASSED] - setText: Text '123' is set on object 'Object Repository/Login Fail/input_password'
+
+2018-05-08 13:40:15 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Login Fail/input_password'
+
+2018-05-08 13:40:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Fail/button_Login' is clicked on
+
+2018-05-08 13:40:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Fail/button_Login' is clicked on
+
+2018-05-08 13:40:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Fail/label_Usernamepassword is inco' is clicked on
+
+2018-05-08 13:40:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Fail/label_Usernamepassword is inco' is clicked on
+
+2018-05-08 13:40:16 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:40:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Available Products for Users" classname="Test Cases/Test Available Products for Users" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:40:16 - [TEST_CASE][PASSED] - Test Cases/Test Available Products for Users: Test Cases/Test Available Products for Users
+
+2018-05-08 13:40:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:40:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:40:17 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:40:29 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:40:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/h2_Login' is clicked on
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/h2_Login' is clicked on
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/label_Username' is clicked on
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/label_Username' is clicked on
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/label_Password' is clicked on
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/label_Password' is clicked on
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/div_Login' is clicked on
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/div_Login' is clicked on
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Avaiable Products/input_username'
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Avaiable Products/input_username'
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Avaiable Products/input_password'
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Avaiable Products/input_password'
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/button_Login' is clicked on
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/button_Login' is clicked on
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:30 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/div_Products' is clicked on
+
+2018-05-08 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/div_Products' is clicked on
+
+2018-05-08 13:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/div_Garden            The gard' is clicked on
+
+2018-05-08 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/div_Garden            The gard' is clicked on
+
+2018-05-08 13:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/div_Banana            A good f' is clicked on
+
+2018-05-08 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/div_Banana            A good f' is clicked on
+
+2018-05-08 13:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/div_Orange            Nothing' is clicked on
+
+2018-05-08 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/div_Orange            Nothing' is clicked on
+
+2018-05-08 13:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/div_Papaya            Use for' is clicked on
+
+2018-05-08 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/div_Papaya            Use for' is clicked on
+
+2018-05-08 13:40:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Avaiable Products/div_Rambutan            An exp' is clicked on
+
+2018-05-08 13:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Avaiable Products/div_Rambutan            An exp' is clicked on
+
+2018-05-08 13:40:32 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:40:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Empty Password Field" classname="Test Cases/Test Empty Password Field" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:40:32 - [TEST_CASE][PASSED] - Test Cases/Test Empty Password Field: Test Cases/Test Empty Password Field
+
+2018-05-08 13:40:32 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:40:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:40:33 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Password/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Password/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Password/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Password/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Password/h2_Login' is clicked on
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Password/h2_Login' is clicked on
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Password/label_Username' is clicked on
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Password/label_Username' is clicked on
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Password/label_Password' is clicked on
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Password/label_Password' is clicked on
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Password/div_Login' is clicked on
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Password/div_Login' is clicked on
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Empty Password/input_username'
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Empty Password/input_username'
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Empty Password/input_password'
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Empty Password/input_password'
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Fail/button_Login' is clicked on
+
+2018-05-08 13:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Fail/button_Login' is clicked on
+
+2018-05-08 13:40:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Password/div_Password' is clicked on
+
+2018-05-08 13:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Password/div_Password' is clicked on
+
+2018-05-08 13:40:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Password/label_Password is required' is clicked on
+
+2018-05-08 13:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Password/label_Password is required' is clicked on
+
+2018-05-08 13:40:47 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:40:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test User change quantity" classname="Test Cases/Test User change quantity" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:40:47 - [TEST_CASE][PASSED] - Test Cases/Test User change quantity: Test Cases/Test User change quantity
+
+2018-05-08 13:40:47 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:40:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:40:48 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:41:00 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:41:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:41:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:41:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/h2_Login' is clicked on
+
+2018-05-08 13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/h2_Login' is clicked on
+
+2018-05-08 13:41:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_Username' is clicked on
+
+2018-05-08 13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_Username' is clicked on
+
+2018-05-08 13:41:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_Password' is clicked on
+
+2018-05-08 13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_Password' is clicked on
+
+2018-05-08 13:41:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_Login' is clicked on
+
+2018-05-08 13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_Login' is clicked on
+
+2018-05-08 13:41:01 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/change quantity/input_username'
+
+2018-05-08 13:41:01 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/change quantity/input_username'
+
+2018-05-08 13:41:01 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/change quantity/input_password'
+
+2018-05-08 13:41:01 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/change quantity/input_password'
+
+2018-05-08 13:41:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/button_Login' is clicked on
+
+2018-05-08 13:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/button_Login' is clicked on
+
+2018-05-08 13:41:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_Products' is clicked on
+
+2018-05-08 13:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_Products' is clicked on
+
+2018-05-08 13:41:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_Garden            The gard' is clicked on
+
+2018-05-08 13:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_Garden            The gard' is clicked on
+
+2018-05-08 13:41:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/button_add to cart' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/button_add to cart' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_already added' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_already added' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_Banana            A good f' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_Banana            A good f' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/button_add to cart' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/button_add to cart' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_already added' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_already added' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/a_Carts            2' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/a_Carts            2' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_Shopping Cart' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_Shopping Cart' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/th_' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/th_' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/th_Product Name' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/th_Product Name' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/th_Price' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/th_Price' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/th_amount' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/th_amount' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/th_1' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/th_1' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/td_Garden' is clicked on
+
+2018-05-08 13:41:03 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/td_Garden' is clicked on
+
+2018-05-08 13:41:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/td_20000 THB' is clicked on
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/td_20000 THB' is clicked on
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/td' is clicked on
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/td' is clicked on
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/th_2' is clicked on
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/th_2' is clicked on
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/td_Banana' is clicked on
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/td_Banana' is clicked on
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/td_150 THB' is clicked on
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/td_150 THB' is clicked on
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/td_1' is clicked on
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/td_1' is clicked on
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/p_Total price  20150 THB' is clicked on
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/p_Total price  20150 THB' is clicked on
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_confirm' is clicked on
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_confirm' is clicked on
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/change quantity/input_amount'
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/change quantity/input_amount'
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/change quantity/div_Total price  40150 THB' is clicked on
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Object: 'Object Repository/change quantity/div_Total price  40150 THB' is clicked on
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:41:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Admin Summary page" classname="Test Cases/Test Admin Summary page" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:41:04 - [TEST_CASE][PASSED] - Test Cases/Test Admin Summary page: Test Cases/Test Admin Summary page
+
+2018-05-08 13:41:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:41:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:41:06 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:41:18 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:41:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:41:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:41:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:41:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/h2_Login' is clicked on
+
+2018-05-08 13:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/h2_Login' is clicked on
+
+2018-05-08 13:41:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/div_Username' is clicked on
+
+2018-05-08 13:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/div_Username' is clicked on
+
+2018-05-08 13:41:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/div_Password' is clicked on
+
+2018-05-08 13:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/div_Password' is clicked on
+
+2018-05-08 13:41:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/div_Login' is clicked on
+
+2018-05-08 13:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/div_Login' is clicked on
+
+2018-05-08 13:41:19 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend (2)/input_username'
+
+2018-05-08 13:41:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend (2)/input_username'
+
+2018-05-08 13:41:19 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend (2)/input_password'
+
+2018-05-08 13:41:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend (2)/input_password'
+
+2018-05-08 13:41:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/button_Login' is clicked on
+
+2018-05-08 13:41:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/button_Login' is clicked on
+
+2018-05-08 13:41:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/div_Products' is clicked on
+
+2018-05-08 13:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/div_Products' is clicked on
+
+2018-05-08 13:41:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/a_Total Transaction' is clicked on
+
+2018-05-08 13:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/a_Total Transaction' is clicked on
+
+2018-05-08 13:41:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/div_Transaction List' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/div_Transaction List' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/th_' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/th_' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/th_Transaction ID' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/th_Transaction ID' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/th_Products' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/th_Products' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/th_1' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/th_1' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/td_1' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/td_1' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/td_Garden Papaya' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/td_Garden Papaya' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/th_2' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/th_2' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/td_2' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/td_2' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/td_Banana Garden Banana Rambut' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/td_Banana Garden Banana Rambut' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/td_20120 THB' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/td_20120 THB' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend (2)/td_60570 THB' is clicked on
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend (2)/td_60570 THB' is clicked on
+
+2018-05-08 13:41:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:41:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test add Transacation with confirm button" classname="Test Cases/Test add Transacation with confirm button" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:41:21 - [TEST_CASE][PASSED] - Test Cases/Test add Transacation with confirm button: Test Cases/Test add Transacation with confirm button
+
+2018-05-08 13:41:22 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:41:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:41:23 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:41:31 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/h2_Login' is clicked on
+
+2018-05-08 13:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/h2_Login' is clicked on
+
+2018-05-08 13:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_Username' is clicked on
+
+2018-05-08 13:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_Username' is clicked on
+
+2018-05-08 13:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_Password' is clicked on
+
+2018-05-08 13:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_Password' is clicked on
+
+2018-05-08 13:41:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_Login' is clicked on
+
+2018-05-08 13:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_Login' is clicked on
+
+2018-05-08 13:41:31 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/test add transcation/input_username'
+
+2018-05-08 13:41:32 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/test add transcation/input_username'
+
+2018-05-08 13:41:32 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/test add transcation/input_password'
+
+2018-05-08 13:41:32 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/test add transcation/input_password'
+
+2018-05-08 13:41:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/button_Login' is clicked on
+
+2018-05-08 13:41:32 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/button_Login' is clicked on
+
+2018-05-08 13:41:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_Products' is clicked on
+
+2018-05-08 13:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_Products' is clicked on
+
+2018-05-08 13:41:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/h2_Products' is clicked on
+
+2018-05-08 13:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/h2_Products' is clicked on
+
+2018-05-08 13:41:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_Garden            The gard' is clicked on
+
+2018-05-08 13:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_Garden            The gard' is clicked on
+
+2018-05-08 13:41:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/button_add to cart' is clicked on
+
+2018-05-08 13:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/button_add to cart' is clicked on
+
+2018-05-08 13:41:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_already added' is clicked on
+
+2018-05-08 13:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_already added' is clicked on
+
+2018-05-08 13:41:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_Banana            A good f' is clicked on
+
+2018-05-08 13:41:33 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_Banana            A good f' is clicked on
+
+2018-05-08 13:41:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/button_add to cart' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/button_add to cart' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_already added' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_already added' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_Products                  _1' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_Products                  _1' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/a_Carts            2' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/a_Carts            2' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_Shopping Cart' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_Shopping Cart' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/th_' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/th_' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/th_Product Name' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/th_Product Name' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/th_Price' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/th_Price' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/th_amount' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/th_amount' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/th_1' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/th_1' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/td_Garden' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/td_Garden' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/td_20000 THB' is clicked on
+
+2018-05-08 13:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/td_20000 THB' is clicked on
+
+2018-05-08 13:41:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/td' is clicked on
+
+2018-05-08 13:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/td' is clicked on
+
+2018-05-08 13:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/th_2' is clicked on
+
+2018-05-08 13:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/th_2' is clicked on
+
+2018-05-08 13:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/td_Banana' is clicked on
+
+2018-05-08 13:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/td_Banana' is clicked on
+
+2018-05-08 13:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/td_150 THB' is clicked on
+
+2018-05-08 13:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/td_150 THB' is clicked on
+
+2018-05-08 13:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/td_1' is clicked on
+
+2018-05-08 13:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/td_1' is clicked on
+
+2018-05-08 13:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/p_Total price  20150 THB' is clicked on
+
+2018-05-08 13:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/p_Total price  20150 THB' is clicked on
+
+2018-05-08 13:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/div_confirm' is clicked on
+
+2018-05-08 13:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/div_confirm' is clicked on
+
+2018-05-08 13:41:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/test add transcation/button_confirm' is clicked on
+
+2018-05-08 13:41:35 - [MESSAGE][PASSED] - Object: 'Object Repository/test add transcation/button_confirm' is clicked on
+
+2018-05-08 13:41:35 - [TEST_STEP][PASSED] - acceptAlert: Alert accepted
+
+2018-05-08 13:41:35 - [MESSAGE][PASSED] - Alert accepted
+
+2018-05-08 13:41:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:41:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-05-08 13:41:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:41:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:41:47 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:41:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:41:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:41:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-08 13:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/h2_Login' is clicked on
+
+2018-05-08 13:41:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/div_Username' is clicked on
+
+2018-05-08 13:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/div_Username' is clicked on
+
+2018-05-08 13:41:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/div_Password' is clicked on
+
+2018-05-08 13:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/div_Password' is clicked on
+
+2018-05-08 13:41:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/div_Login' is clicked on
+
+2018-05-08 13:41:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/div_Login' is clicked on
+
+2018-05-08 13:41:47 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-08 13:41:48 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_username'
+
+2018-05-08 13:41:48 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-08 13:41:48 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_ProjectBackend/input_password'
+
+2018-05-08 13:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-08 13:41:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/button_Login' is clicked on
+
+2018-05-08 13:41:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/div_Products' is clicked on
+
+2018-05-08 13:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/div_Products' is clicked on
+
+2018-05-08 13:41:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-08 13:41:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/a_Total Transaction' is clicked on
+
+2018-05-08 13:41:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/td_Garden Banana' is clicked on
+
+2018-05-08 13:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/td_Garden Banana' is clicked on
+
+2018-05-08 13:41:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_ProjectBackend/td_20150 THB' is clicked on
+
+2018-05-08 13:41:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_ProjectBackend/td_20150 THB' is clicked on
+
+2018-05-08 13:41:50 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:41:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test Empty Username field" classname="Test Cases/Test Empty Username field" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:41:50 - [TEST_CASE][PASSED] - Test Cases/Test Empty Username field: Test Cases/Test Empty Username field
+
+2018-05-08 13:41:50 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:41:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:41:51 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:42:03 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Username/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Username/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Username/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:42:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Username/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:42:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Username/h2_Login' is clicked on
+
+2018-05-08 13:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Username/h2_Login' is clicked on
+
+2018-05-08 13:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Username/label_Username' is clicked on
+
+2018-05-08 13:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Username/label_Username' is clicked on
+
+2018-05-08 13:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Username/label_Password' is clicked on
+
+2018-05-08 13:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Username/label_Password' is clicked on
+
+2018-05-08 13:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Username/div_Login' is clicked on
+
+2018-05-08 13:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Username/div_Login' is clicked on
+
+2018-05-08 13:42:04 - [TEST_STEP][PASSED] - setText: Text '' is set on object 'Object Repository/Empty Username/input_username'
+
+2018-05-08 13:42:04 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Empty Username/input_username'
+
+2018-05-08 13:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Username/div_Password' is clicked on
+
+2018-05-08 13:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Username/div_Password' is clicked on
+
+2018-05-08 13:42:04 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Empty Username/label_Username is required' is clicked on
+
+2018-05-08 13:42:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Empty Username/label_Username is required' is clicked on
+
+2018-05-08 13:42:04 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:42:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test User Login" classname="Test Cases/Test User Login" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:42:04 - [TEST_CASE][PASSED] - Test Cases/Test User Login: Test Cases/Test User Login
+
+2018-05-08 13:42:04 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:42:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:42:05 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:42:16 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/h2_Login' is clicked on
+
+2018-05-08 13:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/h2_Login' is clicked on
+
+2018-05-08 13:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/label_Username' is clicked on
+
+2018-05-08 13:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/label_Username' is clicked on
+
+2018-05-08 13:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/label_Password' is clicked on
+
+2018-05-08 13:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/label_Password' is clicked on
+
+2018-05-08 13:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/div_Login' is clicked on
+
+2018-05-08 13:42:16 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/div_Login' is clicked on
+
+2018-05-08 13:42:16 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/User Login/input_username'
+
+2018-05-08 13:42:16 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/User Login/input_username'
+
+2018-05-08 13:42:16 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/User Login/input_password'
+
+2018-05-08 13:42:16 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/User Login/input_password'
+
+2018-05-08 13:42:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/button_Login' is clicked on
+
+2018-05-08 13:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/button_Login' is clicked on
+
+2018-05-08 13:42:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:42:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:42:17 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:42:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/div_Products' is clicked on
+
+2018-05-08 13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/div_Products' is clicked on
+
+2018-05-08 13:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/a_Carts' is clicked on
+
+2018-05-08 13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/a_Carts' is clicked on
+
+2018-05-08 13:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/h2_Shopping Cart' is clicked on
+
+2018-05-08 13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/h2_Shopping Cart' is clicked on
+
+2018-05-08 13:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/th_' is clicked on
+
+2018-05-08 13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/th_' is clicked on
+
+2018-05-08 13:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/th_Product Name' is clicked on
+
+2018-05-08 13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/th_Product Name' is clicked on
+
+2018-05-08 13:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/th_Price' is clicked on
+
+2018-05-08 13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/th_Price' is clicked on
+
+2018-05-08 13:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/th_amount' is clicked on
+
+2018-05-08 13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/th_amount' is clicked on
+
+2018-05-08 13:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/p_Total price  0 THB' is clicked on
+
+2018-05-08 13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/p_Total price  0 THB' is clicked on
+
+2018-05-08 13:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/div_confirm' is clicked on
+
+2018-05-08 13:42:18 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/div_confirm' is clicked on
+
+2018-05-08 13:42:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/a_Products' is clicked on
+
+2018-05-08 13:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/a_Products' is clicked on
+
+2018-05-08 13:42:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/h2_Products' is clicked on
+
+2018-05-08 13:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/h2_Products' is clicked on
+
+2018-05-08 13:42:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/div_add to cart' is clicked on
+
+2018-05-08 13:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/div_add to cart' is clicked on
+
+2018-05-08 13:42:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/User Login/div_add to cart' is clicked on
+
+2018-05-08 13:42:19 - [MESSAGE][PASSED] - Object: 'Object Repository/User Login/div_add to cart' is clicked on
+
+2018-05-08 13:42:19 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:42:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Test user add products to cart" classname="Test Cases/Test user add products to cart" status="PASSED">
+         <system-out><![CDATA[2018-05-08 13:42:19 - [TEST_CASE][PASSED] - Test Cases/Test user add products to cart: Test Cases/Test user add products to cart
+
+2018-05-08 13:42:19 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-08 13:42:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-08 13:42:20 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:42:33 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-08 13:42:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/h1_SE 234 Project' is clicked on
+
+2018-05-08 13:42:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/p_This is the mock app for the' is clicked on
+
+2018-05-08 13:42:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/h2_Login' is clicked on
+
+2018-05-08 13:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/h2_Login' is clicked on
+
+2018-05-08 13:42:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/label_Username' is clicked on
+
+2018-05-08 13:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/label_Username' is clicked on
+
+2018-05-08 13:42:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/label_Password' is clicked on
+
+2018-05-08 13:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/label_Password' is clicked on
+
+2018-05-08 13:42:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/div_Login' is clicked on
+
+2018-05-08 13:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/div_Login' is clicked on
+
+2018-05-08 13:42:33 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/add products/input_username'
+
+2018-05-08 13:42:33 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/add products/input_username'
+
+2018-05-08 13:42:33 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/add products/input_password'
+
+2018-05-08 13:42:34 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/add products/input_password'
+
+2018-05-08 13:42:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/button_Login' is clicked on
+
+2018-05-08 13:42:34 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/button_Login' is clicked on
+
+2018-05-08 13:42:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/div_Products' is clicked on
+
+2018-05-08 13:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/div_Products' is clicked on
+
+2018-05-08 13:42:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/div_Garden            The gard' is clicked on
+
+2018-05-08 13:42:35 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/div_Garden            The gard' is clicked on
+
+2018-05-08 13:42:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/button_add to cart' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/button_add to cart' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/div_already added' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/div_already added' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/h5_Banana' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/h5_Banana' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/div_Banana            A good f' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/div_Banana            A good f' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/button_add to cart' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/button_add to cart' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/a_Carts            2' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/a_Carts            2' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/th_' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/th_' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/th_Product Name' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/th_Product Name' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/th_Price' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/th_Price' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/th_amount' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/th_amount' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/th_1' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/th_1' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/td_Garden' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/td_Garden' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/td_20000 THB' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/td_20000 THB' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/td' is clicked on
+
+2018-05-08 13:42:36 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/td' is clicked on
+
+2018-05-08 13:42:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/th_2' is clicked on
+
+2018-05-08 13:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/th_2' is clicked on
+
+2018-05-08 13:42:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/td_Banana' is clicked on
+
+2018-05-08 13:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/td_Banana' is clicked on
+
+2018-05-08 13:42:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/td_150 THB' is clicked on
+
+2018-05-08 13:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/td_150 THB' is clicked on
+
+2018-05-08 13:42:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/td_1' is clicked on
+
+2018-05-08 13:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/td_1' is clicked on
+
+2018-05-08 13:42:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/p_Total price  20150 THB' is clicked on
+
+2018-05-08 13:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/p_Total price  20150 THB' is clicked on
+
+2018-05-08 13:42:37 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/add products/div_confirm' is clicked on
+
+2018-05-08 13:42:37 - [MESSAGE][PASSED] - Object: 'Object Repository/add products/div_confirm' is clicked on
+
+2018-05-08 13:42:37 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-08 13:42:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-08 13:37:06 - [TEST_SUITE][FAILED] - Test Suite 1: Test Cases/Test Admin Login FAILED because (of) Unable to click on object 'Object Repository/Admin Login/p_Total price  80690 THB' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Login/p_Total price  80690 THB' located by 'By.xpath: //p[(text() = 'Total price:  80,690 THB' or . = 'Total price:  80,690 THB')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-05-08 13:37:06 - [TEST_SUITE][FAILED] - Test Suite 1: Test Cases/Test Admin Login FAILED because (of) Unable to click on object 'Object Repository/Admin Login/p_Total price  80690 THB' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin Login/p_Total price  80690 THB' located by 'By.xpath: //p[(text() = 'Total price:  80,690 THB' or . = 'Total price:  80,690 THB')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>
