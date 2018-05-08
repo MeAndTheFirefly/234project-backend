@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>All Test Cases</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-05-09T01:22:40</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>48972bb2-1e67-4f3a-afb5-078a4b5bdb39</testSuiteGuid>
+   <testCaseLink>
+      <guid>a3d9027a-7ea7-4d27-8e07-df76111accd2</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Test User Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7717d9a5-390c-4315-b633-d04ce99832b3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>75392b54-2ce3-4763-b82c-a0cf48b933fa</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>eadd306e-44bd-4bab-ac2d-4ee7637eb62d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/Test Admin Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e65e601-ae7d-40df-b8d5-6e6f4ca4c20f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02766311-593a-4624-9a65-1b2a115a87e8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4cad49df-c348-4fc8-a050-c2a398236d38</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Test Available Products for Users - Scripted</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b38d076f-7233-46c7-a78f-11f73d833dfd</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/data.user</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b38d076f-7233-46c7-a78f-11f73d833dfd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>ec2afbc5-97ce-49bc-af7b-22390428497b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b38d076f-7233-46c7-a78f-11f73d833dfd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>ef698a42-a5bd-4387-89af-011c214f12a9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0192397-fd8c-43b7-bf49-ff5d752e605a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cc60f85c-3f32-4a24-bd7d-0110f4b3d1f7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b0cdf1c0-54ed-4759-aee7-18a961ae6ef5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

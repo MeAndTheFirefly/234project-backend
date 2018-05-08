@@ -30,12 +30,6 @@
       <testCaseId>Test Cases/Test User Login Fail</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c5142eca-4f59-46f4-a854-11e6d40d8fad</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Test Available Products for Users</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
       <guid>986a0512-1759-4941-bedd-63283a659c6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
