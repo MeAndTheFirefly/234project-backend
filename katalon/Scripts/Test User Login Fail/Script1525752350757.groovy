@@ -34,13 +34,13 @@ WebUI.verifyElementPresent(findTestObject('all_Objects/label_Username'), 0)
 
 WebUI.verifyElementPresent(findTestObject('all_Objects/label_Password'), 0)
 
-WebUI.setText(findTestObject('Login Fail/input_username'), incorrect_user)
+WebUI.setText(findTestObject('all_Objects/input_username'), incorrect_user)
 
-WebUI.setText(findTestObject('Login Fail/input_password'), wrong_password)
+WebUI.setText(findTestObject('all_Objects/input_password'), wrong_password)
 
-WebUI.click(findTestObject('Login Fail/button_Login'))
+WebUI.click(findTestObject('all_Objects/button_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Login Fail/label_Usernamepassword is inco'), 0)
+WebUI.verifyElementPresent(findTestObject('all_Objects/label_Usernamepassword is inco'), 0)
 
 WebUI.closeBrowser()
 

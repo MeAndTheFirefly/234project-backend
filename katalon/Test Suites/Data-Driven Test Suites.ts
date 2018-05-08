@@ -4,7 +4,7 @@
    <name>Data-Driven Test Suites</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T02:34:41</lastRun>
+   <lastRun>2018-05-09T03:03:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>a3d9027a-7ea7-4d27-8e07-df76111accd2</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Test User Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -41,7 +41,7 @@
    <testCaseLink>
       <guid>eadd306e-44bd-4bab-ac2d-4ee7637eb62d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Test Admin Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -68,7 +68,7 @@
    <testCaseLink>
       <guid>4cad49df-c348-4fc8-a050-c2a398236d38</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Test Available Products for Users - Scripted</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -113,13 +113,13 @@
    <testCaseLink>
       <guid>82ec3e5c-75f1-4f5e-a1cf-a9f597d1c07d</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Test All Login Page elements present</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>56848dab-71ae-4ff7-8777-e2b8a459d5a5</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Test User Logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -146,7 +146,7 @@
    <testCaseLink>
       <guid>586016a1-87fc-4395-8c4a-5ee9334b4931</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/Test User Login Fail</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
