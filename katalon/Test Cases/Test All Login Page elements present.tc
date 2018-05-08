@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Test Admin Login</name>
+   <name>Test All Login Page elements present</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>b033af41-0583-4d20-acf2-3383a3b4cae8</testCaseGuid>
+   <testCaseGuid>4d17b38b-197d-48f3-9c0d-e474a1bf15b4</testCaseGuid>
 </TestCaseEntity>
