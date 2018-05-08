@@ -24,31 +24,31 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/h1_SE 234 Project'))
+WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/h1_SE 234 Project'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/p_This is the mock app for the'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/h2_Login'))
+WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/h2_Login'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Username'))
+WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/div_Username'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Password'))
+WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/div_Password'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Login'))
+WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/div_Login'), 0)
 
-WebUI.setText(findTestObject('Page_ProjectBackend (3)/input_username'), 'admin')
+WebUI.setText(findTestObject('Page_ProjectBackend (3)/input_username'), username)
 
-WebUI.setText(findTestObject('Page_ProjectBackend (3)/input_password'), 'admin')
+WebUI.setText(findTestObject('Page_ProjectBackend (3)/input_password'), password)
 
 WebUI.click(findTestObject('Page_ProjectBackend (3)/button_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/p_This is the mock app for the'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Products'))
+WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/div_Products'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/a_Total Transaction'))
+WebUI.click(findTestObject('Page_ProjectBackend (3)/a_Total Transaction'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_ProjectBackend (3)/div_Transaction List'))
+WebUI.verifyElementPresent(findTestObject('Page_ProjectBackend (3)/div_Transaction List'), 0)
 
 WebUI.closeBrowser()
 

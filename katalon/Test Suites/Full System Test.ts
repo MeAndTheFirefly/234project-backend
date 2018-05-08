@@ -82,5 +82,17 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Test Admin Login</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5e65e601-ae7d-40df-b8d5-6e6f4ca4c20f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>02766311-593a-4624-9a65-1b2a115a87e8</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

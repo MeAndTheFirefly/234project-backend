@@ -4,6 +4,60 @@
    <name>div_Products</name>
    <tag></tag>
    <elementGuidId>15d3ce1c-9d9a-4cb0-aef0-5d6c8224d3ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;navbarSupportedContent&quot;)[count(. | //div[@id = 'navbarSupportedContent' and (text() = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ' or . = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ')]) = count(//div[@id = 'navbarSupportedContent' and (text() = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ' or . = '
+      
+        
+          Products
+          
+        
+        
+        
+          Total Transaction
+        
+      
+      Logout
+    ')])]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -47,7 +101,7 @@
     </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

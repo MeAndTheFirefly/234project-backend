@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_Password</name>
+   <name>Paragraph_SE234</name>
    <tag></tag>
-   <elementGuidId>4e44e7bd-4a25-492b-8ab6-2112096bbf32</elementGuidId>
+   <elementGuidId>da624191-ba3d-4931-872e-6bbd28bba838</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[1]/body[1]/app-root[1]/app-login[1]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-group&quot;]/label[1][count(. | //label[(text() = 'Password' or . = 'Password')]) = count(//label[(text() = 'Password' or . = 'Password')])]</value>
+         <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;row&quot;]/app-top-banner[@class=&quot;col-12&quot;]/div[@class=&quot;jumbotron&quot;]/p[@class=&quot;lead&quot;][count(. | //p[(text() = 'This is the mock app for the SE 234 project' or . = 'This is the mock app for the SE 234 project')]) = count(//p[(text() = 'This is the mock app for the SE 234 project' or . = 'This is the mock app for the SE 234 project')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,27 +17,27 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>p</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>for</name>
+      <name>class</name>
       <type>Main</type>
-      <value>password</value>
+      <value>lead</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Password</value>
+      <value>This is the mock app for the SE 234 project</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/app-root[1]/app-login[1]/div[@class=&quot;col-md-6 col-md-offset-3&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;form-group&quot;]/label[1]</value>
+      <value>/html[1]/body[1]/app-root[1]/div[@class=&quot;row&quot;]/app-top-banner[@class=&quot;col-12&quot;]/div[@class=&quot;jumbotron&quot;]/p[@class=&quot;lead&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
