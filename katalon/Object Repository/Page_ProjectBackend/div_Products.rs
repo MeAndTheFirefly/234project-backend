@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Products</name>
    <tag></tag>
-   <elementGuidId>4315a586-f894-4031-8332-28990b0c912b</elementGuidId>
+   <elementGuidId>5a70a259-72de-4b03-ab1b-6df055c68b21</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,10 +39,8 @@
           
         
         
-          Carts
-            
-          
         
+          Total Transaction
         
       
       Logout

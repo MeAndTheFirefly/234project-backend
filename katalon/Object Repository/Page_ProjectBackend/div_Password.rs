@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Password</name>
    <tag></tag>
-   <elementGuidId>deacf797-8fc1-40a1-b1d6-a435bf098a85</elementGuidId>
+   <elementGuidId>19ffa354-676f-425f-bad4-a9961b384965</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

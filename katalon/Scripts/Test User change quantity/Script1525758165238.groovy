@@ -24,73 +24,73 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Page_ProjectBackend/h1_SE 234 Project'))
+WebUI.click(findTestObject('change quantity/h1_SE 234 Project'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/p_This is the mock app for the'))
+WebUI.click(findTestObject('change quantity/p_This is the mock app for the'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/h2_Login'))
+WebUI.click(findTestObject('change quantity/h2_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Username'))
+WebUI.click(findTestObject('change quantity/div_Username'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Password'))
+WebUI.click(findTestObject('change quantity/div_Password'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Login'))
+WebUI.click(findTestObject('change quantity/div_Login'))
 
-WebUI.setText(findTestObject('Page_ProjectBackend/input_username'), 'user')
+WebUI.setText(findTestObject('change quantity/input_username'), 'user')
 
-WebUI.setText(findTestObject('Page_ProjectBackend/input_password'), 'user')
+WebUI.setText(findTestObject('change quantity/input_password'), 'user')
 
-WebUI.click(findTestObject('Page_ProjectBackend/button_Login'))
+WebUI.click(findTestObject('change quantity/button_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Products'))
+WebUI.click(findTestObject('change quantity/div_Products'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Garden            The gard'))
+WebUI.click(findTestObject('change quantity/div_Garden            The gard'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/button_add to cart'))
+WebUI.click(findTestObject('change quantity/button_add to cart'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_already added'))
+WebUI.click(findTestObject('change quantity/div_already added'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Banana            A good f'))
+WebUI.click(findTestObject('change quantity/div_Banana            A good f'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/button_add to cart'))
+WebUI.click(findTestObject('change quantity/button_add to cart'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_already added'))
+WebUI.click(findTestObject('change quantity/div_already added'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/a_Carts            2'))
+WebUI.click(findTestObject('change quantity/a_Carts            2'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Shopping Cart'))
+WebUI.click(findTestObject('change quantity/div_Shopping Cart'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_'))
+WebUI.click(findTestObject('change quantity/th_'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_Product Name'))
+WebUI.click(findTestObject('change quantity/th_Product Name'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_Price'))
+WebUI.click(findTestObject('change quantity/th_Price'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_amount'))
+WebUI.click(findTestObject('change quantity/th_amount'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_1'))
+WebUI.click(findTestObject('change quantity/th_1'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_Garden'))
+WebUI.click(findTestObject('change quantity/td_Garden'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_20000 THB'))
+WebUI.click(findTestObject('change quantity/td_20000 THB'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td'))
+WebUI.click(findTestObject('change quantity/td'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/th_2'))
+WebUI.click(findTestObject('change quantity/th_2'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_Banana'))
+WebUI.click(findTestObject('change quantity/td_Banana'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_150 THB'))
+WebUI.click(findTestObject('change quantity/td_150 THB'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_1'))
+WebUI.click(findTestObject('change quantity/td_1'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/p_Total price  20150 THB'))
+WebUI.click(findTestObject('change quantity/p_Total price  20150 THB'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_confirm'))
+WebUI.click(findTestObject('change quantity/div_confirm'))
 
-WebUI.setText(findTestObject('Page_ProjectBackend/input_amount'), '2')
+WebUI.setText(findTestObject('change quantity/input_amount'), '2')
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Total price  40150 THB'))
+WebUI.click(findTestObject('change quantity/div_Total price  40150 THB'))
 
 WebUI.closeBrowser()
 

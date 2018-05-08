@@ -3,7 +3,7 @@
    <description></description>
    <name>h1_SE 234 Project</name>
    <tag></tag>
-   <elementGuidId>3d4a370d-0e36-40bf-9180-e1080a2b4f37</elementGuidId>
+   <elementGuidId>265b4d53-7f40-40b4-a919-ee4f55706d43</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

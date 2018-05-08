@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Login</name>
    <tag></tag>
-   <elementGuidId>d3efb646-92dc-4035-9530-3e995701225f</elementGuidId>
+   <elementGuidId>38eb23ae-2f13-440b-8785-9feeb3eb97f8</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
