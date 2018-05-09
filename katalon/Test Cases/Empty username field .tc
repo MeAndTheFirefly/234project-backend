@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Empty username field </name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90e9fec7-f640-4636-b3f4-3e5e9f982910</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1ea6a740-96ee-4b85-937e-ae46ec2a6e3e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d9d1a038-8b9e-4069-a775-82a913f8c3c8</id>
+      <masked>false</masked>
+      <name>emptyUser</name>
+   </variable>
+</TestCaseEntity>

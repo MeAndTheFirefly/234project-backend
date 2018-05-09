@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data-Driven Tests Suite" time="21" tests="1" failures="0" errors="0">
+   <testsuite name="Data-Driven Tests Suite" tests="1" failures="0" errors="0" time="21" timestamp="2018-05-09 10:21:00" hostname="snailwalker - 192.168.0.101" id="Test Suites/Data-Driven Tests Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Data-Driven Tests Suite/20180509_102057"/>
+         <property name="logFiles" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Data-Driven Tests Suite/20180509_102057/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="snailwalker - 192.168.0.101"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="0778f9e2b6f7de8781bc833eb8dd3043"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Admin login " classname="Test Cases/Admin login " status="PASSED">
+         <system-out><![CDATA[2018-05-09 10:21:00 - [TEST_CASE][PASSED] - Test Cases/Admin login : Test Cases/Admin login 
+
+2018-05-09 10:21:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 10:21:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 10:21:04 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-09 10:21:18 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-09 10:21:18 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/header' is present
+
+2018-05-09 10:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 10:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/header' is present
+
+2018-05-09 10:21:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/p_header_description' is present
+
+2018-05-09 10:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 10:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/p_header_description' is present
+
+2018-05-09 10:21:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/h2_Login' is present
+
+2018-05-09 10:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 10:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/h2_Login' is present
+
+2018-05-09 10:21:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Objects /div_Username' is present
+
+2018-05-09 10:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 10:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects /div_Username' is present
+
+2018-05-09 10:21:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Objects /div_Password' is present
+
+2018-05-09 10:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 10:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects /div_Password' is present
+
+2018-05-09 10:21:19 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Objects /div_Login' is present
+
+2018-05-09 10:21:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 10:21:19 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects /div_Login' is present
+
+2018-05-09 10:21:19 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login Objects /input_username'
+
+2018-05-09 10:21:19 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Objects /input_username'
+
+2018-05-09 10:21:19 - [TEST_STEP][PASSED] - setText: Text 'admin' is set on object 'Object Repository/Login Objects /input_password'
+
+2018-05-09 10:21:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Login Objects /input_password'
+
+2018-05-09 10:21:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Objects /button_Login' is clicked on
+
+2018-05-09 10:21:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Objects /button_Login' is clicked on
+
+2018-05-09 10:21:20 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/div_Products' is present
+
+2018-05-09 10:21:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 10:21:21 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/div_Products' is present
+
+2018-05-09 10:21:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Front Page Objects/a_Total Transaction' is clicked on
+
+2018-05-09 10:21:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Front Page Objects/a_Total Transaction' is clicked on
+
+2018-05-09 10:21:21 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/div_Transaction List' is present
+
+2018-05-09 10:21:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 10:21:21 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/div_Transaction List' is present
+
+2018-05-09 10:21:21 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 10:21:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 10:21:00 - [TEST_SUITE][PASSED] - Data-Driven Tests Suite: Test Cases/Admin login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>User login fail </name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d22e434-8fca-4e8e-9769-ee69d38e89bc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0bdf1dcf-4186-432f-8d3d-881515ef218a</id>
+      <masked>false</masked>
+      <name>wrong_password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90bd4d1b-52cb-4724-9795-57df25d20fc8</id>
+      <masked>false</masked>
+      <name>incorrect_user</name>
+   </variable>
+</TestCaseEntity>

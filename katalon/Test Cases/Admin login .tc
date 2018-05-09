@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin login </name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4e33869b-7e39-4027-9608-7f3f879b33ac</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5e65e601-ae7d-40df-b8d5-6e6f4ca4c20f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>02766311-593a-4624-9a65-1b2a115a87e8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
