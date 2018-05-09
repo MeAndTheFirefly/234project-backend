@@ -1,11 +1,9 @@
 language: java
-before_install:
+install:
   - sudo curl -sL -o /usr/local/bin/docker-compose https://github.com/docker/compose/releases/download/1.21.0/docker-compose-"$(uname -s)"-"$(uname -m)"
   - sudo chmod    +x /usr/local/bin/docker-compose
-install:
-  - mvn install -Dmaven.javadoc.skip=true -B -V
-  - ls -l
 script:
+  - mvn install -Dmaven.javadoc.skip=true -B -V
   - docker build --build-arg JAR_FILE=/target/backend.jar -t meandthefirefly/234project-backend  .
   - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
   - docker push meandthefirefly/234project-backend
