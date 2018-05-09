@@ -40,7 +40,7 @@ WebUI.setText(findTestObject('Login Objects /input_password'), wrong_password)
 
 WebUI.click(findTestObject('Login Objects /button_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Login Objects /label_Usernamepassword is inco'), 0)
+WebUI.verifyElementPresent(findTestObject('Login Objects /Page_ProjectBackend/label_Usernamepassword is inco'), 0)
 
 WebUI.closeBrowser()
 
