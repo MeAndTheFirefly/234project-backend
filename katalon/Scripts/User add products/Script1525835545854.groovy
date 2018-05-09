@@ -24,67 +24,61 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('add products/h1_SE 234 Project'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/header'), 0)
 
-WebUI.click(findTestObject('add products/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/p_header_description'), 0)
 
-WebUI.click(findTestObject('add products/h2_Login'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/h2_Login'), 0)
 
-WebUI.click(findTestObject('add products/label_Username'))
+WebUI.verifyElementPresent(findTestObject('Login Objects /label_Username'), 0)
 
-WebUI.click(findTestObject('add products/label_Password'))
+WebUI.verifyElementPresent(findTestObject('Login Objects /label_Password'), 0)
 
-WebUI.click(findTestObject('add products/div_Login'))
+WebUI.verifyElementPresent(findTestObject('Login Objects /div_Login'), 0)
 
-WebUI.setText(findTestObject('add products/input_username'), 'user')
+WebUI.setText(findTestObject('Login Objects /input_username'), username)
 
-WebUI.setText(findTestObject('add products/input_password'), 'user')
+WebUI.setText(findTestObject('Login Objects /input_password'), password)
 
-WebUI.click(findTestObject('add products/button_Login'))
+WebUI.click(findTestObject('Login Objects /button_Login'))
 
-WebUI.click(findTestObject('add products/div_Products'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/div_add to cart'), 0)
 
-WebUI.click(findTestObject('add products/div_Garden            The gard'))
+WebUI.verifyElementPresent(findTestObject('h5_Garden'),0)
 
-WebUI.click(findTestObject('add products/button_add to cart'))
+WebUI.verifyElementPresent(findTestObject('div_add to cart'),0)
 
-WebUI.click(findTestObject('add products/div_already added'))
+WebUI.click(findTestObject('button_add to cart'))
 
-WebUI.click(findTestObject('add products/h5_Banana'))
+WebUI.verifyElementPresent(findTestObject('div_already added'),0)
 
-WebUI.click(findTestObject('add products/div_Banana            A good f'))
+WebUI.verifyElementPresent(findTestObject('h5_Banana'),0)
 
-WebUI.click(findTestObject('add products/button_add to cart'))
+WebUI.verifyElementPresent(findTestObject('div_add to cart'),0)
 
-WebUI.click(findTestObject('add products/a_Carts            2'))
+WebUI.click(findTestObject('button_add to cart'))
 
-WebUI.click(findTestObject('add products/th_'))
+WebUI.verifyElementPresent(findTestObject('div_already added'),0)
 
-WebUI.click(findTestObject('add products/th_Product Name'))
+WebUI.verifyElementPresent(findTestObject('div_Products'),0)
 
-WebUI.click(findTestObject('add products/th_Price'))
+WebUI.click(findTestObject('a_Carts            2'))
 
-WebUI.click(findTestObject('add products/th_amount'))
+WebUI.verifyElementPresent(findTestObject('div_Shopping Cart'),0)
 
-WebUI.click(findTestObject('add products/th_1'))
+WebUI.verifyElementPresent(findTestObject('td_Garden'),0)
 
-WebUI.click(findTestObject('add products/td_Garden'))
+WebUI.verifyElementPresent(findTestObject('td_20000 THB'),0)
 
-WebUI.click(findTestObject('add products/td_20000 THB'))
+WebUI.verifyElementPresent(findTestObject('div_col-4 center-block'),0)
 
-WebUI.click(findTestObject('add products/td'))
+WebUI.verifyElementPresent(findTestObject('td_Banana'),0)
 
-WebUI.click(findTestObject('add products/th_2'))
+WebUI.verifyElementPresent(findTestObject('td_150 THB'),0)
 
-WebUI.click(findTestObject('add products/td_Banana'))
+WebUI.verifyElementPresent(findTestObject('div_col-4 center-block_1'),0)
 
-WebUI.click(findTestObject('add products/td_150 THB'))
-
-WebUI.click(findTestObject('add products/td_1'))
-
-WebUI.click(findTestObject('add products/p_Total price  20150 THB'))
-
-WebUI.click(findTestObject('add products/div_confirm'))
+WebUI.verifyElementPresent(findTestObject('p_Total price  20150 THB'),0)
 
 WebUI.closeBrowser()
 
