@@ -20,79 +20,69 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+def data = TestDataFactory.findTestData('Data Files/data.user')
+
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('test add transcation/h1_SE 234 Project'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/header'), 0)
 
-WebUI.click(findTestObject('test add transcation/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/p_header_description'), 0)
 
-WebUI.click(findTestObject('test add transcation/h2_Login'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/h2_Login'), 0)
 
-WebUI.click(findTestObject('test add transcation/div_Username'))
+WebUI.verifyElementPresent(findTestObject('Login Objects /label_Username'), 0)
 
-WebUI.click(findTestObject('test add transcation/div_Password'))
+WebUI.verifyElementPresent(findTestObject('Login Objects /label_Password'), 0)
 
-WebUI.click(findTestObject('test add transcation/div_Login'))
+WebUI.verifyElementPresent(findTestObject('Login Objects /div_Login'), 0)
 
-WebUI.setText(findTestObject('test add transcation/input_username'), 'user')
+WebUI.setText(findTestObject('Login Objects /input_username'), username)
 
-WebUI.setText(findTestObject('test add transcation/input_password'), 'user')
+WebUI.setText(findTestObject('Login Objects /input_password'), password)
 
-WebUI.click(findTestObject('test add transcation/button_Login'))
+WebUI.click(findTestObject('Login Objects /button_Login'))
 
-WebUI.click(findTestObject('test add transcation/div_Products'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/div_add to cart'), 0)
 
-WebUI.click(findTestObject('test add transcation/h2_Products'))
+WebUI.verifyElementPresent(findTestObject('h5_Garden'), 0)
 
-WebUI.click(findTestObject('test add transcation/div_Garden            The gard'))
+WebUI.verifyElementPresent(findTestObject('div_add to cart'), 0)
 
-WebUI.click(findTestObject('test add transcation/button_add to cart'))
+WebUI.click(findTestObject('button_add to cart'))
 
-WebUI.click(findTestObject('test add transcation/div_already added'))
+WebUI.verifyElementPresent(findTestObject('div_already added'), 0)
 
-WebUI.click(findTestObject('test add transcation/div_Banana            A good f'))
+WebUI.verifyElementPresent(findTestObject('h5_Banana'), 0)
 
-WebUI.click(findTestObject('test add transcation/button_add to cart'))
+WebUI.verifyElementPresent(findTestObject('div_add to cart'), 0)
 
-WebUI.click(findTestObject('test add transcation/div_already added'))
+WebUI.click(findTestObject('button_add to cart'))
 
-WebUI.click(findTestObject('test add transcation/div_Products                  _1'))
+WebUI.verifyElementPresent(findTestObject('div_already added'), 0)
 
-WebUI.click(findTestObject('test add transcation/a_Carts            2'))
+WebUI.verifyElementPresent(findTestObject('div_Products'), 0)
 
-WebUI.click(findTestObject('test add transcation/div_Shopping Cart'))
+WebUI.click(findTestObject('a_Carts            2'))
 
-WebUI.click(findTestObject('test add transcation/th_'))
+WebUI.verifyElementPresent(findTestObject('div_Shopping Cart'), 0)
 
-WebUI.click(findTestObject('test add transcation/th_Product Name'))
+WebUI.verifyElementPresent(findTestObject('td_Garden'), 0)
 
-WebUI.click(findTestObject('test add transcation/th_Price'))
+WebUI.verifyElementPresent(findTestObject('td_20000 THB'), 0)
 
-WebUI.click(findTestObject('test add transcation/th_amount'))
+WebUI.verifyElementPresent(findTestObject('div_col-4 center-block'), 0)
 
-WebUI.click(findTestObject('test add transcation/th_1'))
+WebUI.verifyElementPresent(findTestObject('td_Banana'), 0)
 
-WebUI.click(findTestObject('test add transcation/td_Garden'))
+WebUI.verifyElementPresent(findTestObject('td_150 THB'), 0)
 
-WebUI.click(findTestObject('test add transcation/td_20000 THB'))
+WebUI.verifyElementPresent(findTestObject('div_col-4 center-block_1'), 0)
 
-WebUI.click(findTestObject('test add transcation/td'))
+WebUI.verifyElementPresent(findTestObject('p_Total price  20150 THB'), 0)
 
-WebUI.click(findTestObject('test add transcation/th_2'))
-
-WebUI.click(findTestObject('test add transcation/td_Banana'))
-
-WebUI.click(findTestObject('test add transcation/td_150 THB'))
-
-WebUI.click(findTestObject('test add transcation/td_1'))
-
-WebUI.click(findTestObject('test add transcation/p_Total price  20150 THB'))
-
-WebUI.click(findTestObject('test add transcation/div_confirm'))
-
-WebUI.click(findTestObject('test add transcation/button_confirm'))
+WebUI.click(findTestObject('Login Objects /button_confirm'))
 
 WebUI.acceptAlert()
 
@@ -100,31 +90,33 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://34.209.48.20:9089/')
 
-WebUI.click(findTestObject('Page_ProjectBackend/h1_SE 234 Project'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/header'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend/p_This is the mock app for the'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/p_header_description'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend/h2_Login'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/h2_Login'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Username'))
+WebUI.verifyElementPresent(findTestObject('Login Objects /div_Username'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Password'))
+WebUI.verifyElementPresent(findTestObject('Login Objects /div_Password'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Login'))
+WebUI.verifyElementPresent(findTestObject('Login Objects /div_Login'), 0)
 
-WebUI.setText(findTestObject('Page_ProjectBackend/input_username'), 'admin')
+WebUI.setText(findTestObject('Login Objects /input_username'), data.getValue(1, 1))
 
-WebUI.setText(findTestObject('Page_ProjectBackend/input_password'), 'admin')
+WebUI.setText(findTestObject('Login Objects /input_password'), data.getValue(2, 1))
 
-WebUI.click(findTestObject('Page_ProjectBackend/button_Login'))
+WebUI.click(findTestObject('Login Objects /button_Login'))
 
-WebUI.click(findTestObject('Page_ProjectBackend/div_Products'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/div_Products'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend/a_Total Transaction'))
+WebUI.click(findTestObject('Front Page Objects/a_Total Transaction'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_Garden Banana'))
+WebUI.verifyElementPresent(findTestObject('Front Page Objects/div_Transaction List'), 0)
 
-WebUI.click(findTestObject('Page_ProjectBackend/td_20150 THB'))
+WebUI.verifyElementPresent(findTestObject('Product Objects/td_Garden Banana'), 0)
+
+WebUI.verifyElementPresent(findTestObject('Product Objects/td_20150 THB'), 0)
 
 WebUI.closeBrowser()
 

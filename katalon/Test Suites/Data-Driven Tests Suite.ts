@@ -4,7 +4,7 @@
    <name>Data-Driven Tests Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T11:12:49</lastRun>
+   <lastRun>2018-05-09T11:43:32</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -194,7 +194,7 @@
    <testCaseLink>
       <guid>e2f77338-7e71-498c-848e-609ec72d67de</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Empty username field </testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -248,7 +248,7 @@
    <testCaseLink>
       <guid>f91f321c-a4f1-47b4-8daa-45ab8a5f1ddf</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/User add products</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -270,6 +270,33 @@
          <type>DATA_COLUMN</type>
          <value>password</value>
          <variableId>a492520d-26cd-4589-ab16-663d39c99fdd</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2c9a185f-41af-431c-b475-e16f98c8bed9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Add transacations </testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e3f5d70e-62ff-4b6d-9c7f-ad1f4d46e7e3</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/data.user</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e3f5d70e-62ff-4b6d-9c7f-ad1f4d46e7e3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>5829b919-fdb8-4188-8ea8-cf5ee9b60767</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e3f5d70e-62ff-4b6d-9c7f-ad1f4d46e7e3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>f89e8cfc-47d5-4d3d-8a6b-b6149ed19e74</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
