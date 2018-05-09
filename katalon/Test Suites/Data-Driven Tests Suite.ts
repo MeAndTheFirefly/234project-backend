@@ -4,7 +4,7 @@
    <name>Data-Driven Tests Suite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-05-09T10:50:38</lastRun>
+   <lastRun>2018-05-09T11:05:18</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -194,7 +194,7 @@
    <testCaseLink>
       <guid>e2f77338-7e71-498c-848e-609ec72d67de</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Empty username field </testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -216,6 +216,33 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>d9d1a038-8b9e-4069-a775-82a913f8c3c8</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b2479958-9b27-46f7-8d3c-945a41d1eef9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/User change item quantity </testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>9ff32322-a98e-4507-92d5-d688d770db37</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>2-3</value>
+         </iterationEntity>
+         <testDataId>Data Files/data.user</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>9ff32322-a98e-4507-92d5-d688d770db37</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>cfd08d3e-c872-42c7-92a4-916f62d93bd5</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>9ff32322-a98e-4507-92d5-d688d770db37</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>caf33bd9-7bf6-4a81-bb95-c6df2d118b25</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

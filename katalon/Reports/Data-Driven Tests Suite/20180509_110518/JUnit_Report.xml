@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data-Driven Tests Suite" time="30" tests="2" failures="0" errors="0">
+   <testsuite name="Data-Driven Tests Suite" tests="2" failures="0" errors="0" time="30" timestamp="2018-05-09 11:05:20" hostname="snailwalker - 192.168.0.101" id="Test Suites/Data-Driven Tests Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Data-Driven Tests Suite/20180509_110518"/>
+         <property name="logFiles" value="/Users/snailwalker/Documents/workspace/backend/katalon/Reports/Data-Driven Tests Suite/20180509_110518/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="snailwalker - 192.168.0.101"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="5908c4873b6f3b1db1f481e15114d16e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/User change item quantity " classname="Test Cases/User change item quantity " status="PASSED">
+         <system-out><![CDATA[2018-05-09 11:05:21 - [TEST_CASE][PASSED] - Test Cases/User change item quantity : Test Cases/User change item quantity 
+
+2018-05-09 11:05:21 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 11:05:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 11:05:24 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-09 11:05:31 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-09 11:05:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/header' is present
+
+2018-05-09 11:05:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/header' is present
+
+2018-05-09 11:05:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/p_header_description' is present
+
+2018-05-09 11:05:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/p_header_description' is present
+
+2018-05-09 11:05:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/h2_Login' is present
+
+2018-05-09 11:05:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/h2_Login' is present
+
+2018-05-09 11:05:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Objects /label_Username' is present
+
+2018-05-09 11:05:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects /label_Username' is present
+
+2018-05-09 11:05:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Objects /label_Password' is present
+
+2018-05-09 11:05:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects /label_Password' is present
+
+2018-05-09 11:05:31 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Objects /div_Login' is present
+
+2018-05-09 11:05:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects /div_Login' is present
+
+2018-05-09 11:05:31 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login Objects /input_username'
+
+2018-05-09 11:05:31 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login Objects /input_username'
+
+2018-05-09 11:05:31 - [TEST_STEP][PASSED] - setText: Text 'user' is set on object 'Object Repository/Login Objects /input_password'
+
+2018-05-09 11:05:31 - [MESSAGE][PASSED] - Text 'user' is set on object 'Object Repository/Login Objects /input_password'
+
+2018-05-09 11:05:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Objects /button_Login' is clicked on
+
+2018-05-09 11:05:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Objects /button_Login' is clicked on
+
+2018-05-09 11:05:32 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/div_add to cart' is present
+
+2018-05-09 11:05:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:33 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/div_add to cart' is present
+
+2018-05-09 11:05:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/h5_Garden' is present
+
+2018-05-09 11:05:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:33 - [MESSAGE][PASSED] - Object 'Object Repository/h5_Garden' is present
+
+2018-05-09 11:05:33 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_add to cart' is present
+
+2018-05-09 11:05:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:33 - [MESSAGE][PASSED] - Object 'Object Repository/div_add to cart' is present
+
+2018-05-09 11:05:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_add to cart' is clicked on
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/button_add to cart' is clicked on
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_already added' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/div_already added' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/h5_Banana' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/h5_Banana' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_add to cart' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/div_add to cart' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_add to cart' is clicked on
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/button_add to cart' is clicked on
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_already added' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/div_already added' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_Products' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/div_Products' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Carts            2' is clicked on
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Carts            2' is clicked on
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_Shopping Cart' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/div_Shopping Cart' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/td_Garden' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/td_Garden' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/td_20000 THB' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/td_20000 THB' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_col-4 center-block' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/div_col-4 center-block' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/td_Banana' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/td_Banana' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/td_150 THB' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/td_150 THB' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_col-4 center-block_1' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/div_col-4 center-block_1' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/p_Total price  20150 THB' is present
+
+2018-05-09 11:05:34 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:34 - [MESSAGE][PASSED] - Object 'Object Repository/p_Total price  20150 THB' is present
+
+2018-05-09 11:05:34 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/input_amount'
+
+2018-05-09 11:05:35 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/input_amount'
+
+2018-05-09 11:05:35 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_Total price  40150 THB' is present
+
+2018-05-09 11:05:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:35 - [MESSAGE][PASSED] - Object 'Object Repository/div_Total price  40150 THB' is present
+
+2018-05-09 11:05:35 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 11:05:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/User change item quantity " classname="Test Cases/User change item quantity " status="PASSED">
+         <system-out><![CDATA[2018-05-09 11:05:35 - [TEST_CASE][PASSED] - Test Cases/User change item quantity : Test Cases/User change item quantity 
+
+2018-05-09 11:05:35 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-05-09 11:05:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-05-09 11:05:36 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-09 11:05:48 - [MESSAGE][PASSED] - Navigate to 'http://34.209.48.20:9089/' successfully
+
+2018-05-09 11:05:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/header' is present
+
+2018-05-09 11:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/header' is present
+
+2018-05-09 11:05:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/p_header_description' is present
+
+2018-05-09 11:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/p_header_description' is present
+
+2018-05-09 11:05:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/h2_Login' is present
+
+2018-05-09 11:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/h2_Login' is present
+
+2018-05-09 11:05:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Objects /label_Username' is present
+
+2018-05-09 11:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects /label_Username' is present
+
+2018-05-09 11:05:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Objects /label_Password' is present
+
+2018-05-09 11:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects /label_Password' is present
+
+2018-05-09 11:05:48 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Login Objects /div_Login' is present
+
+2018-05-09 11:05:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:48 - [MESSAGE][PASSED] - Object 'Object Repository/Login Objects /div_Login' is present
+
+2018-05-09 11:05:48 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login Objects /input_username'
+
+2018-05-09 11:05:48 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login Objects /input_username'
+
+2018-05-09 11:05:48 - [TEST_STEP][PASSED] - setText: Text 'hello' is set on object 'Object Repository/Login Objects /input_password'
+
+2018-05-09 11:05:48 - [MESSAGE][PASSED] - Text 'hello' is set on object 'Object Repository/Login Objects /input_password'
+
+2018-05-09 11:05:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Login Objects /button_Login' is clicked on
+
+2018-05-09 11:05:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Objects /button_Login' is clicked on
+
+2018-05-09 11:05:49 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/Front Page Objects/div_add to cart' is present
+
+2018-05-09 11:05:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/Front Page Objects/div_add to cart' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/h5_Garden' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/h5_Garden' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_add to cart' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/div_add to cart' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_add to cart' is clicked on
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/button_add to cart' is clicked on
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_already added' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/div_already added' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/h5_Banana' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/h5_Banana' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_add to cart' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/div_add to cart' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/button_add to cart' is clicked on
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/button_add to cart' is clicked on
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_already added' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/div_already added' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_Products' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/div_Products' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/a_Carts            2' is clicked on
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object: 'Object Repository/a_Carts            2' is clicked on
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_Shopping Cart' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/div_Shopping Cart' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/td_Garden' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/td_Garden' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/td_20000 THB' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/td_20000 THB' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_col-4 center-block' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/div_col-4 center-block' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/td_Banana' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/td_Banana' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/td_150 THB' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/td_150 THB' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_col-4 center-block_1' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/div_col-4 center-block_1' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/p_Total price  20150 THB' is present
+
+2018-05-09 11:05:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:50 - [MESSAGE][PASSED] - Object 'Object Repository/p_Total price  20150 THB' is present
+
+2018-05-09 11:05:50 - [TEST_STEP][PASSED] - setText: Text '2' is set on object 'Object Repository/input_amount'
+
+2018-05-09 11:05:51 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/input_amount'
+
+2018-05-09 11:05:51 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/div_Total price  40150 THB' is present
+
+2018-05-09 11:05:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-05-09 11:05:51 - [MESSAGE][PASSED] - Object 'Object Repository/div_Total price  40150 THB' is present
+
+2018-05-09 11:05:51 - [TEST_STEP][PASSED] - closeBrowser: Browser is closed
+
+2018-05-09 11:05:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-09 11:05:20 - [TEST_SUITE][PASSED] - Data-Driven Tests Suite: Test Cases/User change item quantity]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
